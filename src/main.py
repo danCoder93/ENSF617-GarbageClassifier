@@ -6,7 +6,8 @@ from garbage_classification import FitConfig, GarbageClassification
 
 def main():
   args = sys.argv[1:]
-  data_dir = args[0] if len(args) > 0 else r'/Users/danishshahid/MEng/ENSF617/Assignments/Assignment2/garbage_data'
+  default_dir: str =  r'/work/TALC/ensf617_2026w/garbage_data'
+  data_dir = args[0] if len(args) > 0 else default_dir
   cvprds = CVPRDataModule(
     DataConfig(data_dir=data_dir, 
                inference_transform=models.EfficientNet_V2_M_Weights.IMAGENET1K_V1.transforms(), 
@@ -25,9 +26,9 @@ def main():
 
   gc = GarbageClassification(FitConfig())
 
-  gc.fit(dataloaders=dataloaders)
+  gc.train(dataloaders=dataloaders)
 
-  gc.evaluate(dataloader=dataloaders['test'])
+  gc.eval(dataloader=dataloaders['test'])
 
 if __name__ == '__main__':
   main()

@@ -46,7 +46,7 @@ class GarbageClassification():
     # initialize optimizer
     self.optimizer = self.cfg.optimizer_cls(self.model.classifier[1].parameters(), lr = self.cfg.lr)
 
-  def fit(self, dataloaders):
+  def train(self, dataloaders):
     best_acc = 0.0
     
     # run full pass for epochs
@@ -102,7 +102,7 @@ class GarbageClassification():
     print(f"Best val Acc: {best_acc:.4f}")
 
   # Test function
-  def evaluate(self, dataloader):
+  def eval(self, dataloader):
       self.model.load_state_dict(torch.load("best_model.pth", map_location=self.device_))
       self.model.eval()
       correct = 0
