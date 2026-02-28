@@ -13,8 +13,6 @@ class DataConfig():
   augmentation_transform: transforms.Compose
   batch_size: int = 128
   num_workers: int = 2
-  pin_memory: bool = True
-  persistent_workers: bool = True
   seed: int = 42
 
 class CVPRDataModule:
@@ -71,9 +69,7 @@ class CVPRDataModule:
             self.train_ds,
             batch_size=self.cfg.batch_size,
             shuffle=True,
-            num_workers=self.cfg.num_workers,
-            pin_memory=self.cfg.pin_memory,
-            persistent_workers=self.cfg.persistent_workers and self.cfg.num_workers > 0,
+            num_workers=self.cfg.num_workers
         )
 
     def val_dataloader(self) -> DataLoader:
@@ -82,9 +78,7 @@ class CVPRDataModule:
             self.val_ds,
             batch_size=self.cfg.batch_size,
             shuffle=False,
-            num_workers=self.cfg.num_workers,
-            pin_memory=self.cfg.pin_memory,
-            persistent_workers=self.cfg.persistent_workers and self.cfg.num_workers > 0,
+            num_workers=self.cfg.num_workers
         )
 
     def test_dataloader(self) -> DataLoader:
@@ -93,9 +87,7 @@ class CVPRDataModule:
             self.test_ds,
             batch_size=self.cfg.batch_size,
             shuffle=False,
-            num_workers=self.cfg.num_workers,
-            pin_memory=self.cfg.pin_memory,
-            persistent_workers=self.cfg.persistent_workers and self.cfg.num_workers > 0,
+            num_workers=self.cfg.num_workers
         )
 
     def _ensure_setup(self) -> None:

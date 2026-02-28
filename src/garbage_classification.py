@@ -2,10 +2,9 @@ from typing import Type
 from dataclasses import dataclass
 
 import torch # Pytorch
-from torchvision import models, transforms # Pytorch vision library for import vision models
+from torchvision import models # Pytorch vision library for import vision models
 
 import torch.nn as nn # neural net library
-import torch.nn.functional as F # neural net functions for layers and activations
 
 import torch.optim as optim # optimizer library
 
@@ -60,13 +59,16 @@ class GarbageClassification():
 
         # if phase is train, enter in train mode
         if (phase == 'train'):
+          print(f'Training...')
           self.model.train()
         else: # else get in eval mode - freezing parameters
+          print(f'Validating...')
           self.model.eval()
 
         running_loss = 0.0
         running_corrects = 0
 
+        print(f'Moving inputs and labels to device')
         # move inputs and labels to device
         for inputs, labels in dataloaders[phase]:
           inputs, labels = inputs.to(self.device_), labels.to(self.device_)
@@ -75,11 +77,13 @@ class GarbageClassification():
           self.optimizer.zero_grad()
 
           with torch.set_grad_enabled(phase == 'train'):
+            print(f'Executing forward pass...')
             outputs = self.model(inputs)
             loss = self.criterion(outputs, labels)
             _, preds = torch.max(outputs, 1)
 
             if phase == 'train':
+              print(f'Executing backpropation')
               loss.backward()
               self.optimizer.step()
 

@@ -1,12 +1,14 @@
+import sys
 from torchvision import models, transforms
 
 from cvpr_datamodule import CVPRDataModule, DataConfig
 from garbage_classification import FitConfig, GarbageClassification
 
 def main():
-
+  args = sys.argv[1:]
+  data_dir = args[0] if len(args) > 0 else r'/Users/danishshahid/MEng/ENSF617/Assignments/Assignment2/garbage_data'
   cvprds = CVPRDataModule(
-    DataConfig(data_dir=r'/Users/danishshahid/MEng/ENSF617/Assignments/Assignment2/garbage_data', 
+    DataConfig(data_dir=data_dir, 
                inference_transform=models.EfficientNet_V2_M_Weights.IMAGENET1K_V1.transforms(), 
                augmentation_transform=transforms.Compose(
                  [transforms.RandomRotation(45), transforms.RandomHorizontalFlip()]
