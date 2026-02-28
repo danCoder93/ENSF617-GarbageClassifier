@@ -1,4 +1,4 @@
-#Okay this is our classifier document.# src/textclassifier.py
+#Okay I am gonna get all my library I need - reference to ENSF 612 which I used a lot of info from
 import os
 from pathlib import Path
 
@@ -7,7 +7,7 @@ from sklearn.linear_model import SGDClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-# folder names in your dataset root
+# Using split so that we can access all our data, reference to cvpr_dataset for all the help with making this easy
 SPLITS = {
     "train": "CVPR_2024_dataset_Train",
     "val":   "CVPR_2024_dataset_Val",
@@ -20,7 +20,7 @@ CLASS_TO_IDX = {c: i for i, c in enumerate(CLASSES)}
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
 def filename_to_text(p: Path) -> str:
-    # greasy_pizza_box.jpg -> "greasy pizza box"
+    # greasy_pizza_box.png -> "greasy pizza box"
     return p.stem.replace("_", " ").lower()
 
 def load_split(data_root: Path, split: str):
@@ -36,6 +36,7 @@ def load_split(data_root: Path, split: str):
                 y.append(CLASS_TO_IDX[cls])
     return X, y
 
+# Setting up the main
 def main():
     data_root = Path(os.environ["GARBAGE_DATA_ROOT"]).expanduser()
     print("Using data root:", data_root)
@@ -46,6 +47,7 @@ def main():
 
     print(f"Train={len(X_train)}  Val={len(X_val)}  Test={len(X_test)}")
 
+    #Building the model - ENSF 612 reference
     model = Pipeline([
         ("tfidf", TfidfVectorizer(
             ngram_range=(1, 2),
@@ -62,12 +64,15 @@ def main():
         ))
     ])
 
+    #Fitting the model with our train data
     model.fit(X_train, y_train)
 
+    #Using the prediction data -> as we dont have any parameters to change, not incredibly useful
     val_pred = model.predict(X_val)
     print("\nVAL accuracy:", accuracy_score(y_val, val_pred))
     print(classification_report(y_val, val_pred, target_names=CLASSES))
 
+    #Testing our model
     test_pred = model.predict(X_test)
     print("\nTEST accuracy:", accuracy_score(y_test, test_pred))
     print(classification_report(y_test, test_pred, target_names=CLASSES))
