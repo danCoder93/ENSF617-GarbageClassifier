@@ -31,6 +31,7 @@ class TrainStats:
 class GarbageImageTrainer:
     def __init__(self, train_config: TrainConfig):
         self.max_epochs = train_config.max_epochs
+        print(train_config.device)
         self.device = torch.device(train_config.device)
         self.writer = train_config.writer
         self.grad_clip_norm = train_config.grad_clip_norm
