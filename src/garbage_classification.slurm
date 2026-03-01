@@ -13,4 +13,4 @@
 source ~/software/init-conda
 conda activate pytorch
 
-python main.py
+python "$(dirname "$0")/main.py"
