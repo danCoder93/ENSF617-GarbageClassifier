@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.tensorboard import SummaryWriter
 
-from cvpr_datamodule import CVPRDataModule, DataConfig
+from data_module import DataModule, DataConfig
 from garbage_classification import pick_device, build_efficientnet_head
 from garbage_image_classification import GarbageImageClassification
 from garbage_image_trainer import TrainConfig, GarbageImageTrainer
@@ -26,11 +26,11 @@ def main():
         data_dir=data_dir,
         inference_transform=inference_tf,
         augmentation_transform=aug_tf,
-        batch_size=128,
+        batch_size=32,
         num_workers=2,
     )
 
-    dm = CVPRDataModule(data_cfg)
+    dm = DataModule(data_cfg)
     dm.setup()
 
     num_classes = dm.num_classes
@@ -44,7 +44,7 @@ def main():
     trainer = GarbageImageTrainer(
         train_config=TrainConfig(
             device=pick_device(),
-            max_epochs=5,
+            max_epochs=20,
             writer=writer,
             grad_clip_norm=1.0,
             save_path="best_model.pth",
@@ -58,9 +58,8 @@ def main():
         val_loader=dm.val_dataloader(),
         optimizer=optimizer)
 
-    trainer.evaluate(
-        model,
-        dm.test_dataloader)
+    trainer.evaluate(model, loader=dm.test_dataloader())
+    
     writer.close()
 
 

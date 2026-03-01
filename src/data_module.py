@@ -1,23 +1,30 @@
 from dataclasses import dataclass
-from typing import Dict, Optional
+from typing import Dict, Literal, Optional
 
 from torchvision import transforms
 from torch.utils.data import DataLoader
+from transformers import AutoTokenizer
 
 from cvpr_dataset import CVPR
+from data_collate import DataCollate
 
+Mode = Literal["image", "text", "multimodal"]
 
 @dataclass(frozen=True)
 class DataConfig:
     data_dir: str
+    device: str
     inference_transform: transforms.Compose
     augmentation_transform: Optional[transforms.Compose] = None
-    batch_size: int = 256
+    batch_size: int = 32
     num_workers: int = 2
     seed: int = 42
+    mode: Mode = "image"
+    tokenizer_name: str = "distilbert-base-uncased"
+    max_length: int = 64
 
 
-class CVPRDataModule:
+class DataModule:
     """
     Orchestrates datasets + dataloaders for the CVPR garbage classification dataset.
     """
@@ -29,8 +36,13 @@ class CVPRDataModule:
         self.val_ds = None
         self.test_ds = None
 
-        self.class_names = None
-        self.num_classes = None
+        self.tokenizer = None
+        if self.cfg.mode in ("text", "multimodal"):
+            self.tokenizer = AutoTokenizer.from_pretrained(self.cfg.tokenizer_name)
+
+        self.is_cuda = str(self.cfg.device).startswith("cuda")
+
+        self.collate_fn = self._collate_fn()
 
         self.transforms = self._build_transforms()
 
@@ -46,15 +58,21 @@ class CVPRDataModule:
             "val": self.cfg.inference_transform,
             "test": self.cfg.inference_transform,
         }
+    
+    def _collate_fn(self):
+        if self.cfg.mode == "image":
+            return DataCollate.collate_image
+        if self.cfg.mode == "text":
+            return DataCollate.make_collate_text(self.tokenizer, self.cfg.max_length)
+        if self.cfg.mode == "multimodal":
+            return DataCollate.make_collate_multimodal(self.tokenizer, self.cfg.max_length)
+        raise ValueError(f"Unknown mode: {self.cfg.mode}")
 
     def setup(self) -> None:
-        self.train_ds = CVPR(self.cfg.data_dir, split="train", transform=self.transforms["train"])
-        self.val_ds = CVPR(self.cfg.data_dir, split="val", transform=self.transforms["val"])
-        self.test_ds = CVPR(self.cfg.data_dir, split="test", transform=self.transforms["test"])
-
-        # Assuming your CVPR wrapper exposes underlying ImageFolder as `.ds`
-        self.class_names = list(self.train_ds.ds.classes)
-        self.num_classes = len(self.class_names)
+        self.train_ds = CVPR(self.cfg.data_dir, split="train", image_transform=self.transforms["train"])
+        self.val_ds = CVPR(self.cfg.data_dir, split="val", image_transform=self.transforms["val"])
+        self.test_ds = CVPR(self.cfg.data_dir, split="test", image_transform=self.transforms["test"])
+        
 
     def train_dataloader(self) -> DataLoader:
         self._ensure_setup()
@@ -63,8 +81,9 @@ class CVPRDataModule:
             batch_size=self.cfg.batch_size,
             shuffle=True,
             num_workers=self.cfg.num_workers,
-            pin_memory=True,
-            persistent_workers=True if self.cfg.num_workers > 0 else False,
+            collate_fn=self.collate_fn,
+            pin_memory=self.is_cuda,
+            persistent_workers=self.cfg.num_workers > 0,
         )
 
     def val_dataloader(self) -> DataLoader:
@@ -74,8 +93,9 @@ class CVPRDataModule:
             batch_size=self.cfg.batch_size,
             shuffle=False,
             num_workers=self.cfg.num_workers,
-            pin_memory=True,
-            persistent_workers=True if self.cfg.num_workers > 0 else False,
+            collate_fn=self.collate_fn,
+            pin_memory=self.is_cuda,
+            persistent_workers=self.cfg.num_workers > 0,
         )
 
     def test_dataloader(self) -> DataLoader:
@@ -85,8 +105,9 @@ class CVPRDataModule:
             batch_size=self.cfg.batch_size,
             shuffle=False,
             num_workers=self.cfg.num_workers,
-            pin_memory=True,
-            persistent_workers=True if self.cfg.num_workers > 0 else False,
+            collate_fn=self.collate_fn,
+            pin_memory=self.is_cuda,
+            persistent_workers=self.cfg.num_workers > 0,
         )
 
     def _ensure_setup(self) -> None:

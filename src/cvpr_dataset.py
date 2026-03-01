@@ -1,9 +1,25 @@
-from typing import Optional
-import os
+from typing import Any, Dict, Optional
+import os, re
 
-from torchvision import datasets
+from torchvision.datasets import ImageFolder
 
 from torch.utils.data import Dataset
+
+
+def filename_to_text(path: str) -> str:
+    stem = os.path.splitext(os.path.basename(path))[0].lower().replace("_", " ")
+    stem = re.sub(r"\s+", " ", stem).strip()
+    return stem
+
+def split_to_subdir(split: str) -> str:
+    s = split.lower()
+    if s == "train":
+        return "CVPR_2024_dataset_Train"
+    if s == "val":
+        return "CVPR_2024_dataset_Val"
+    if s == "test":
+        return "CVPR_2024_dataset_Test"
+    raise ValueError(f"split must be one of ['train','val','test'], got '{split}'")
 
 class CVPR(Dataset):
   '''
@@ -13,26 +29,23 @@ class CVPR(Dataset):
   Provider - Prof. Roberto Souza
   '''
 
-  def __init__(self, data_dir: str, split: str = 'train', transform:Optional[callable] = None):
-      sub_dir = None
-      match split.lower():
-        case 'train':
-          sub_dir = 'CVPR_2024_dataset_Train'
-        case 'val':
-          sub_dir = 'CVPR_2024_dataset_Val'
-        case 'test':
-          sub_dir = 'CVPR_2024_dataset_Test'
-        case _:
-          raise ValueError(f"split must be one of {{['train', 'val', 'test']}}, got '{split}'")
+  def __init__(self, data_dir: str, split: str = 'train', image_transform:Optional[callable] = None):
+    sub_dir = split_to_subdir(split)
+    path = os.path.join(data_dir, sub_dir)
+    self.ds = ImageFolder(path, transform=image_transform)
+    self.samples = self.ds.samples  # list[(path, class_idx)]
+    self.classes = self.ds.classes
+    self.num_classes = len(self.classes)
       
-      full_path = os.path.join(data_dir, sub_dir)
-
-      self.ds = datasets.ImageFolder(full_path, transform)
     
   def __len__(self):
-    return len(self.ds)
+    return len(self.samples)
 
-  def __getitem__(self, idx):
-    return self.ds[idx]
+  def __getitem__(self, idx: int) -> Dict[str, Any]:
+    # ImageFolder already loads + transforms the image
+    img, y = self.ds[idx]
+    path, _ = self.samples[idx]
+    text = filename_to_text(path)
+    return {"image": img, "text": text, "label": y, "path": path}
 
   

@@ -166,7 +166,7 @@ class GarbageImageTrainer:
     @torch.no_grad()
     def evaluate(self, model: nn.Module, loader: DataLoader) -> Dict[str, float]:
         model.eval()
-        self.model.load_state_dict(torch.load(self.save_path, map_location=self.device))
+        model.load_state_dict(torch.load(self.save_path, map_location=self.device))
         running_loss = 0.0
         running_acc = 0.0
         n = 0
