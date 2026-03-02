@@ -23,18 +23,17 @@ class DataConfig:
     tokenizer_name: str = "distilbert-base-uncased"
     max_length: int = 64
 
-
 class DataModule:
     """
     Orchestrates datasets + dataloaders for the CVPR garbage classification dataset.
     """
-
     def __init__(self, cfg: DataConfig):
         self.cfg = cfg
 
         self.train_ds = None
         self.val_ds = None
         self.test_ds = None
+        self.num_class = None
 
         self.tokenizer = None
         if self.cfg.mode in ("text", "multimodal"):
@@ -72,7 +71,7 @@ class DataModule:
         self.train_ds = CVPR(self.cfg.data_dir, split="train", image_transform=self.transforms["train"])
         self.val_ds = CVPR(self.cfg.data_dir, split="val", image_transform=self.transforms["val"])
         self.test_ds = CVPR(self.cfg.data_dir, split="test", image_transform=self.transforms["test"])
-        
+        self.num_class = self.train_ds.num_classes
 
     def train_dataloader(self) -> DataLoader:
         self._ensure_setup()

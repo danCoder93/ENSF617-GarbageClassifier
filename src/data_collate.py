@@ -1,56 +1,40 @@
+# src/data_collate.py
+from dataclasses import dataclass
+from typing import Any, Dict, List, Literal, Optional
+
 import torch
 
-class DataCollate():
+Mode = Literal["image", "text", "multimodal"]
 
-    @staticmethod
-    def collate_image(batch):
-        images = torch.stack([b["image"] for b in batch])
+@dataclass
+class DataCollate:
+    mode: Mode
+    tokenizer: Optional[Any] = None
+    max_length: int = 64
+
+    def __call__(self, batch: List[Dict[str, Any]]) -> Dict[str, Any]:
+        # batch items come from CVPR.__getitem__:
+        # {"image": img_tensor, "text": str, "label": int, "path": str}
         labels = torch.tensor([b["label"] for b in batch], dtype=torch.long)
-        paths  = [b["path"] for b in batch]
-        return {"image": images, "labels": labels, "paths": paths}
+        paths = [b["path"] for b in batch]
 
-    @staticmethod
-    def make_collate_text(tokenizer, max_length: int):
-        def collate_text(batch):
-            texts  = [b["text"] for b in batch]
-            labels = torch.tensor([b["label"] for b in batch], dtype=torch.long)
-            paths  = [b["path"] for b in batch]
+        out: Dict[str, Any] = {"labels": labels, "path": paths}
 
-            enc = tokenizer(
+        if self.mode in ("image", "multimodal"):
+            images = torch.stack([b["image"] for b in batch], dim=0)
+            out["image"] = images
+
+        if self.mode in ("text", "multimodal"):
+            if self.tokenizer is None:
+                raise ValueError("tokenizer must be provided for text/multimodal mode")
+            texts = [b["text"] for b in batch]
+            enc = self.tokenizer(
                 texts,
-                padding=True,
                 truncation=True,
-                max_length=max_length,
+                padding=True,
+                max_length=self.max_length,
                 return_tensors="pt",
             )
-            return {
-                "input_ids": enc["input_ids"],
-                "attention_mask": enc["attention_mask"],
-                "labels": labels,
-                "paths": paths,
-            }
-        return collate_text
+            out.update(enc)  # input_ids, attention_mask (and token_type_ids if exists)
 
-    @staticmethod
-    def make_collate_multimodal(tokenizer, max_length: int):
-        def collate_mm(batch):
-            images = torch.stack([b["image"] for b in batch])
-            texts  = [b["text"] for b in batch]
-            labels = torch.tensor([b["label"] for b in batch], dtype=torch.long)
-            paths  = [b["path"] for b in batch]
-
-            enc = tokenizer(
-                texts,
-                padding=True,
-                truncation=True,
-                max_length=max_length,
-                return_tensors="pt",
-            )
-            return {
-                "image": images,
-                "input_ids": enc["input_ids"],
-                "attention_mask": enc["attention_mask"],
-                "labels": labels,
-                "paths": paths,
-            }
-        return collate_mm
+        return out
