@@ -8,6 +8,7 @@ import torch.optim as optim
 from torch.utils.tensorboard import SummaryWriter
 
 from data_module import DataConfig, DataModule
+from pipeline_logger import PipelineLogger
 from trainer import Trainer, TrainConfig
 
 from garbage_classification import MultiModalClassifier
@@ -20,9 +21,8 @@ def pick_device():
     return "cpu"
 
 def make_writer(run_name: str) -> SummaryWriter:
-    job = os.environ.get("SLURM_JOB_ID", "local")
     ts = time.strftime("%Y%m%d-%H%M%S")
-    logdir = f"runs/{run_name}/{ts}_job{job}"
+    logdir = f"runs/{run_name}/{ts}"
     return SummaryWriter(log_dir=logdir)
 
 def make_loaders(data_dir: str, device:str, mode: str, tokenizer_name="distilbert-base-uncased", batch_size=32, num_workers=2, max_len=64):
@@ -41,8 +41,8 @@ def make_loaders(data_dir: str, device:str, mode: str, tokenizer_name="distilber
         inference_transform=inference_tf,
         augmentation_transform=aug_tf,
         tokenizer_name=tokenizer_name,
-        batch_size=32,
-        num_workers=2,
+        batch_size=batch_size,
+        num_workers=num_workers,
         max_length=max_len
     )
 
@@ -52,17 +52,17 @@ def make_loaders(data_dir: str, device:str, mode: str, tokenizer_name="distilber
     return dm.train_dataloader(), dm.val_dataloader(), dm.test_dataloader(), dm.num_class
 
 def run_one(mode: str, data_dir: str, device: str):
-    writer = make_writer(run_name=mode)
+    logger = PipelineLogger(writer=make_writer(run_name=mode))
 
     train_loader, val_loader, test_loader, num_classes = make_loaders(data_dir, device, mode)
 
     model = MultiModalClassifier(num_classes=num_classes, mode=mode)
-    optimizer = optim.SGD(filter(lambda p: p.requires_grad, model.parameters()), lr=3e-4)
+    optimizer = optim.AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=3e-4)
 
     cfg = TrainConfig(
         device=device, 
-        max_epochs=10, 
-        writer=writer, 
+        max_epochs=30, 
+        logger=logger, 
         grad_clip_norm=1.0, 
         save_path=f"best_{mode}.pth", 
         use_amp=True)
@@ -72,7 +72,7 @@ def run_one(mode: str, data_dir: str, device: str):
     test_metrics = trainer.evaluate(model, test_loader, stage="test")
     print(mode, "test:", test_metrics)
 
-    writer.close()
+    logger.close()
 
 def main():
     data_dir = r"/work/TALC/ensf617_2026w/garbage_data"
