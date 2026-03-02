@@ -74,7 +74,7 @@ class Trainer:
 
                 # amp -> fp32 -> fp16 faster
                 # requires scaling and then scaling down
-                with torch.amp.autocast(enabled=self.scaler.is_enabled()):
+                with torch.amp.autocast(device_type=self.device.type, enabled=self.scaler.is_enabled()):
                     logits = model(batch)
                     loss = self.loss_fn(logits, labels)
 
