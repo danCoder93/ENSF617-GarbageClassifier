@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import asdict, is_dataclass
+from dataclasses import fields, is_dataclass
 from math import isfinite
 from typing import Any, Dict, Optional
 
@@ -28,7 +28,7 @@ class PipelineLogger:
             return
 
         if is_dataclass(cfg):
-            cfg_dict = asdict(cfg)
+            cfg_dict = {f.name: getattr(cfg, f.name) for f in fields(cfg)}
         else:
             cfg_dict = dict(cfg) if isinstance(cfg, dict) else {"config": str(cfg)}
         cfg_dict = {k: v for k, v in cfg_dict.items() if k != "logger"}
