@@ -54,13 +54,19 @@ def make_loaders(data_dir: str, device:str, mode: str, tokenizer_name="distilber
 def run_one(mode: str, data_dir: str, device: str):
     writer = make_writer(run_name=mode)
 
-    train_loader, val_loader, test_loader, classes = make_loaders(data_dir, mode)
+    train_loader, val_loader, test_loader, classes = make_loaders(data_dir, device, mode)
     num_classes = len(classes)
 
     model = MultiModalClassifier(num_classes=num_classes, mode=mode)
     optimizer = optim.SGD(filter(lambda p: p.requires_grad, model.parameters()), lr=3e-4)
 
-    cfg = TrainConfig(device=device, max_epochs=10, writer=writer, grad_clip_norm=1.0, save_path=f"best_{mode}.pth", use_amp=True)
+    cfg = TrainConfig(
+        device=device, 
+        max_epochs=10, 
+        writer=writer, 
+        grad_clip_norm=1.0, 
+        save_path=f"best_{mode}.pth", 
+        use_amp=True)
     trainer = Trainer(cfg, loss_fn=nn.CrossEntropyLoss())
 
     trainer.fit(model, train_loader, val_loader, optimizer)

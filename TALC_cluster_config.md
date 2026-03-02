@@ -10,9 +10,9 @@ conda activate pytorch
 conda config --env --set channel_priority strict
 
 # Install CUDA-enabled PyTorch + vision/audio + tensorboard
-conda install -y pytorch torchvision torchaudio tensorboard pytorch-cuda=12.1 \
+conda install -y pytorch torchvision torchaudio tensorboard transformers pytorch-cuda=12.1 \
   -c pytorch -c nvidia -c conda-forge --override-channels
-
+ls
 # Quick sanity check (compile-time CUDA)
 python -c "import torch; print('Torch:', torch.__version__, '| CUDA runtime:', torch.version.cuda)"
 
