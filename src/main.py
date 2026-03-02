@@ -54,8 +54,7 @@ def make_loaders(data_dir: str, device:str, mode: str, tokenizer_name="distilber
 def run_one(mode: str, data_dir: str, device: str):
     writer = make_writer(run_name=mode)
 
-    train_loader, val_loader, test_loader, classes = make_loaders(data_dir, device, mode)
-    num_classes = len(classes)
+    train_loader, val_loader, test_loader, num_classes = make_loaders(data_dir, device, mode)
 
     model = MultiModalClassifier(num_classes=num_classes, mode=mode)
     optimizer = optim.SGD(filter(lambda p: p.requires_grad, model.parameters()), lr=3e-4)

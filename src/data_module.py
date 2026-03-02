@@ -59,13 +59,10 @@ class DataModule:
         }
     
     def _collate_fn(self):
-        if self.cfg.mode == "image":
-            return DataCollate.collate_image
-        if self.cfg.mode == "text":
-            return DataCollate.make_collate_text(self.tokenizer, self.cfg.max_length)
-        if self.cfg.mode == "multimodal":
-            return DataCollate.make_collate_multimodal(self.tokenizer, self.cfg.max_length)
-        raise ValueError(f"Unknown mode: {self.cfg.mode}")
+        return DataCollate(
+        mode=self.cfg.mode,
+        tokenizer=self.tokenizer,
+        max_length=self.cfg.max_length)
 
     def setup(self) -> None:
         self.train_ds = CVPR(self.cfg.data_dir, split="train", image_transform=self.transforms["train"])

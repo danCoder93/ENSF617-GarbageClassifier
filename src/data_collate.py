@@ -28,6 +28,7 @@ class DataCollate:
             if self.tokenizer is None:
                 raise ValueError("tokenizer must be provided for text/multimodal mode")
             texts = [b["text"] for b in batch]
+            out['raw_text'] = texts
             enc = self.tokenizer(
                 texts,
                 truncation=True,
