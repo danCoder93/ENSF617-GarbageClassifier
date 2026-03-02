@@ -8,7 +8,7 @@ from torch.utils.tensorboard import SummaryWriter
 from data_module import DataModule, DataConfig
 from garbage_classification import pick_device, build_efficientnet_head
 from garbage_image_classification import GarbageImageClassification
-from garbage_image_trainer import TrainConfig, GarbageImageTrainer
+from trainer import TrainConfig, GarbageImageTrainer
 
 
 def main():
