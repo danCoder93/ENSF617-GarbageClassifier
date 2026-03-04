@@ -1,0 +1,834 @@
+path,true_label,pred_label,confidence,raw_text
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Air_Freshener_915.png,Black,TTR,0.90576171875,air freshener 915
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Broken_Glass_917.png,Black,TTR,0.79541015625,broken glass 917
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Broken_glass_cup_1037.png,Black,TTR,0.78857421875,broken glass cup 1037
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Comb_1715.png,Black,TTR,0.37841796875,comb 1715
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Deoderant_Container_114.png,Black,Blue,0.5283203125,deoderant container 114
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Dirty_Tinfoil_920.png,Black,Blue,0.5224609375,dirty tinfoil 920
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Expired_cheese_514.png,Black,Green,0.63720703125,expired cheese 514
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Kleenex_Box_74.png,Black,Blue,0.60546875,kleenex box 74
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Lighter_935.png,Black,TTR,0.91259765625,lighter 935
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Mio_container_314.png,Black,Blue,0.970703125,mio container 314
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Old_Mechanical_Pencile_1735.png,Black,TTR,0.853515625,old mechanical pencile 1735
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Pen_1737.png,Black,TTR,0.88134765625,pen 1737
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Take_Out_Sauce_Container_143.png,Black,Blue,0.91064453125,take out sauce container 143
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Used_Aluminium_Foil_1699.png,Black,Blue,0.93603515625,used aluminium foil 1699
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Used_Deoderant_632.png,Black,Blue,0.5087890625,used deoderant 632
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Used_candle_630.png,Black,TTR,0.39404296875,used candle 630
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Used_ear_picks_2692.png,Black,Green,0.4453125,used ear picks 2692
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Used_scrub_sponge_2693.png,Black,Green,0.42626953125,used scrub sponge 2693
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/Yogurt_Container_Foil_Lid_153.png,Black,Blue,0.8671875,yogurt container foil lid 153
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/_mm_pen_2951.png,Black,TTR,0.88623046875,mm pen 2951
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/badge_pin_1556.png,Black,TTR,0.84326171875,badge pin 1556
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/bag_of_spinach_590.png,Black,Green,0.52001953125,bag of spinach 590
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/ball_of_lint_3280.png,Black,Green,0.36083984375,ball of lint 3280
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/biodegradable_bag_837.png,Black,Green,0.9423828125,biodegradable bag 837
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/blue_pen_2208.png,Black,TTR,0.88818359375,blue pen 2208
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/blue_perfume_glass_bottle_1268.png,Black,Blue,0.98095703125,blue perfume glass bottle 1268
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/bottle_hand_pump_1421.png,Black,Blue,0.90283203125,bottle hand pump 1421
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/bottle_lid_2083.png,Black,Blue,0.95947265625,bottle lid 2083
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/bottle_lid_2084.png,Black,Blue,0.958984375,bottle lid 2084
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/bottle_lid_2515.png,Black,Blue,0.9677734375,bottle lid 2515
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/bread_bag_2808.png,Black,Blue,0.515625,bread bag 2808
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/broken_cup_2085.png,Black,TTR,0.89306640625,broken cup 2085
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/broken_dog_squeaker_2953.png,Black,Green,0.41162109375,broken dog squeaker 2953
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/broken_pen_1708.png,Black,TTR,0.734375,broken pen 1708
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/broken_plate_1710.png,Black,TTR,0.93359375,broken plate 1710
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/broken_scissors_2086.png,Black,TTR,0.908203125,broken scissors 2086
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/brooken_lighter_2810.png,Black,TTR,0.9609375,brooken lighter 2810
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/butter_3361.png,Black,Blue,0.405029296875,butter 3361
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/candy_bag_40.png,Black,Blue,0.51806640625,candy bag 40
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/cheese_wrapper_292.png,Black,Blue,0.468994140625,cheese wrapper 292
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/chewing_gum_box_2665.png,Black,Blue,0.95458984375,chewing gum box 2665
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/chutney_container_1426.png,Black,Blue,0.5498046875,chutney container 1426
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/clean_furnace_filter_1714.png,Black,Blue,0.351318359375,clean furnace filter 1714
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/cleaning_wipe_2815.png,Black,Green,0.78271484375,cleaning wipe 2815
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/coffee_cup_lid_2090.png,Black,Blue,0.74365234375,coffee cup lid 2090
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/coffee_cup_lid_2524.png,Black,TTR,0.351318359375,coffee cup lid 2524
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/coffee_k_cup_with_grounds_426.png,Black,Blue,0.7724609375,coffee k cup with grounds 426
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/coffee_lid_1116.png,Black,Blue,0.7646484375,coffee lid 1116
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/coffee_pod_2525.png,Black,Blue,0.459228515625,coffee pod 2525
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/cologne_1561.png,Black,Blue,0.71435546875,cologne 1561
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/cookies_bag_1671.png,Black,Green,0.6123046875,cookies bag 1671
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/cotton_swabs_1716.png,Black,Green,0.494384765625,cotton swabs 1716
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/crumpled_tissue_on_grey_surface_2820.png,Black,Green,0.53076171875,crumpled tissue on grey surface 2820
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/deodarant_stick_1893.png,Black,Blue,0.6787109375,deodarant stick 1893
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/deodarant_stick_1894.png,Black,Blue,0.61328125,deodarant stick 1894
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/deoderant_3289.png,Black,Blue,0.51220703125,deoderant 3289
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/deoderant_stick_2091.png,Black,Blue,0.53369140625,deoderant stick 2091
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/deodorant_1039.png,Black,Blue,0.80615234375,deodorant 1039
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/deodorant_stick_1895.png,Black,Blue,0.484619140625,deodorant stick 1895
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/deodorant_stick_3441.png,Black,Blue,0.58740234375,deodorant stick 3441
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/deodorant_stick_599.png,Black,Blue,0.51513671875,deodorant stick 599
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_aluminum_foil_2245.png,Black,Blue,0.9609375,dirty aluminum foil 2245
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_boxer_2144.png,Black,Green,0.95654296875,dirty boxer 2144
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_chicken_package_116.png,Black,Green,0.6533203125,dirty chicken package 116
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_coveralls_2388.png,Black,Green,0.477783203125,dirty coveralls 2388
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_drink_lid_1718.png,Black,Blue,0.54345703125,dirty drink lid 1718
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_filter_1040.png,Black,Green,0.9296875,dirty filter 1040
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_furnace_filter_1719.png,Black,Green,0.919921875,dirty furnace filter 1719
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_sauce_cup_295.png,Black,Green,0.86474609375,dirty sauce cup 295
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_snack_bag_1721.png,Black,Green,0.953125,dirty snack bag 1721
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_sponge_1277.png,Black,Green,0.681640625,dirty sponge 1277
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_sponge_755.png,Black,Green,0.6943359375,dirty sponge 755
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_swiffer_mop_pad_2962.png,Black,Blue,0.5908203125,dirty swiffer mop pad 2962
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_tinfoil_2964.png,Black,Blue,0.501953125,dirty tinfoil 2964
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_tissue_paper_1898.png,Black,Green,0.9765625,dirty tissue paper 1898
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dirty_used_qtip_1182.png,Black,Green,0.43115234375,dirty used qtip 1182
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/disposable_polyethlane_glove_2093.png,Black,Green,0.363525390625,disposable polyethlane glove 2093
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dog_treats_2252.png,Black,Green,0.5966796875,dog treats 2252
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dried_cranberry_bag_1899.png,Black,Green,0.55126953125,dried cranberry bag 1899
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dried_cranberry_bag_1900.png,Black,Green,0.548828125,dried cranberry bag 1900
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dried_gluestick_1564.png,Black,Blue,0.57275390625,dried gluestick 1564
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dryer_lint_600.png,Black,Green,0.411376953125,dryer lint 600
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dryer_sheet_3112.png,Black,Green,0.384033203125,dryer sheet 3112
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dusty_swiffer_duster_pad_2965.png,Black,Green,0.37744140625,dusty swiffer duster pad 2965
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/dyer_lint_3113.png,Black,Green,0.5439453125,dyer lint 3113
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_baby_pouch_761.png,Black,Blue,0.4873046875,empty baby pouch 761
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_chicken_pack_722.png,Black,Blue,0.42724609375,empty chicken pack 722
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_deodrant_stick_1724.png,Black,Blue,0.68798828125,empty deodrant stick 1724
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_dried_mango_bag_1904.png,Black,Blue,0.91064453125,empty dried mango bag 1904
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_ground_coffee_bag_3297.png,Black,Blue,0.5068359375,empty ground coffee bag 3297
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_lighter_2150.png,Black,TTR,0.73583984375,empty lighter 2150
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_lotion_bottle_3247.png,Black,Blue,0.97412109375,empty lotion bottle 3247
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_lotion_pump_1278.png,Black,Blue,0.451171875,empty lotion pump 1278
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_lotion_tube_2827.png,Black,Blue,0.480712890625,empty lotion tube 2827
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_pancake_mix_bag_3299.png,Black,Blue,0.70458984375,empty pancake mix bag 3299
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_pen_434.png,Black,TTR,0.541015625,empty pen 434
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_perfume_302.png,Black,Blue,0.93408203125,empty perfume 302
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_perfume_bottle_769.png,Black,Blue,0.97314453125,empty perfume bottle 769
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_plastic_gum_tray_435.png,Black,Blue,0.44921875,empty plastic gum tray 435
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_popcorn_bag_2830.png,Black,Blue,0.6806640625,empty popcorn bag 2830
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_popcorn_bag_3118.png,Black,Blue,0.505859375,empty popcorn bag 3118
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_potato_bag_3301.png,Black,Blue,0.7216796875,empty potato bag 3301
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_roll_on_772.png,Black,Blue,0.84326171875,empty roll on 772
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_tissue_box_3258.png,Black,Green,0.517578125,empty tissue box 3258
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/empty_toothpaste_tube_1726.png,Black,Blue,0.60888671875,empty toothpaste tube 1726
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/expired_jam_311.png,Black,Green,0.62890625,expired jam 311
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/expired_meat_183.png,Black,Blue,0.5654296875,expired meat 183
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/expired_meat_694.png,Black,Green,0.974609375,expired meat 694
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/expired_perfume_bottle_1908.png,Black,Blue,0.9775390625,expired perfume bottle 1908
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/face_lotion_1850.png,Black,Blue,0.46484375,face lotion 1850
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/faulty_lamp_2567.png,Black,TTR,0.423828125,faulty lamp 2567
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/floss_dispenser_2533.png,Black,Blue,0.481201171875,floss dispenser 2533
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/foam_chicken_package_923.png,Black,Blue,0.53369140625,foam chicken package 923
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/foiled_paper_chocholate_bag_1912.png,Black,Blue,0.98388671875,foiled paper chocholate bag 1912
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/frozen_fruit_bag_312.png,Black,Blue,0.62451171875,frozen fruit bag 312
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/glue_1913.png,Black,Blue,0.460205078125,glue 1913
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/glue_container_1434.png,Black,Blue,0.97021484375,glue container 1434
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/granola_bar_519.png,Black,Blue,0.421875,granola bar 519
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/greasy_aluminum_foil_2102.png,Black,Blue,0.9755859375,greasy aluminum foil 2102
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/greasy_microwave_popcorn_bag_2903.png,Black,Green,0.5234375,greasy microwave popcorn bag 2903
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/hand_cream_tube_1728.png,Black,Blue,0.607421875,hand cream tube 1728
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/joints_weed_2538.png,Black,Green,0.62841796875,joints weed 2538
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/kerig_coffee_pod_1916.png,Black,Green,0.392822265625,kerig coffee pod 1916
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/keurig_cup_1506.png,Black,Blue,0.93994140625,keurig cup 1506
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/key_605.png,Black,TTR,0.86865234375,key 605
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/keys_1569.png,Black,TTR,0.90869140625,keys 1569
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/keys_1570.png,Black,TTR,0.90087890625,keys 1570
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/kitchen_sponge_1729.png,Black,Green,0.71728515625,kitchen sponge 1729
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/lamp_1730.png,Black,TTR,0.95068359375,lamp 1730
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/lightbulb_3347.png,Black,Blue,0.55712890625,lightbulb 3347
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/lighter_313.png,Black,TTR,0.9443359375,lighter 313
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/lighter_608.png,Black,TTR,0.91845703125,lighter 608
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/lighter_gas_2574.png,Black,TTR,0.919921875,lighter gas 2574
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/meat_carton_1437.png,Black,Blue,0.94189453125,meat carton 1437
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/mechanical_pencil_609.png,Black,TTR,0.83251953125,mechanical pencil 609
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/metal_pull_tab_lid_900.png,Black,Blue,0.642578125,metal pull tab lid 900
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/net_bag_3306.png,Black,Blue,0.475341796875,net bag 3306
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/old_brush_1440.png,Black,TTR,0.78271484375,old brush 1440
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/old_dirty_paint_brush_1921.png,Black,Green,0.91357421875,old dirty paint brush 1921
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/old_lighter_317.png,Black,TTR,0.916015625,old lighter 317
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/old_pen_2541.png,Black,TTR,0.88232421875,old pen 2541
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/old_pen_3126.png,Black,TTR,0.83203125,old pen 3126
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/old_pen_780.png,Black,TTR,0.9365234375,old pen 780
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/old_spice_solid_deodrant_1297.png,Black,Blue,0.63330078125,old spice solid deodrant 1297
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/old_sponge_2109.png,Black,Green,0.67578125,old sponge 2109
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/patio_brick_2402.png,Black,Green,0.9560546875,patio brick 2402
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/pen_1442.png,Black,TTR,0.89892578125,pen 1442
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/pen_1574.png,Black,TTR,0.88671875,pen 1574
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/pen_1923.png,Black,TTR,0.92724609375,pen 1923
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/pen_2544.png,Black,TTR,0.89013671875,pen 2544
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/pen_617.png,Black,TTR,0.87939453125,pen 617
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/perfume_bottle_1030.png,Black,Blue,0.95849609375,perfume bottle 1030
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/perfume_bottle_1443.png,Black,TTR,0.9521484375,perfume bottle 1443
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/perfume_bottle_2545.png,Black,Blue,0.9794921875,perfume bottle 2545
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/pills_trash_2873.png,Black,Green,0.9638671875,pills trash 2873
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/pitted_prunes_bag_1924.png,Black,Green,0.9052734375,pitted prunes bag 1924
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/pitted_prunes_bag_1925.png,Black,Green,0.90283203125,pitted prunes bag 1925
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/plastic_container_2264.png,Black,Blue,0.93505859375,plastic container 2264
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/plastic_fork_619.png,Black,Green,0.52685546875,plastic fork 619
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/plastic_lid_2376.png,Black,Blue,0.47265625,plastic lid 2376
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/plastic_lid_621.png,Black,Blue,0.314697265625,plastic lid 621
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/plastic_packaging_2379.png,Black,Blue,0.49951171875,plastic packaging 2379
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/plastic_packaging_3134.png,Black,Blue,0.41748046875,plastic packaging 3134
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/plastic_salmon_wrapper_949.png,Black,Green,0.40771484375,plastic salmon wrapper 949
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/popped_plastic_packing_material_1307.png,Black,Blue,0.38818359375,popped plastic packing material 1307
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/pringles_can_1981.png,Black,Blue,0.8818359375,pringles can 1981
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/q-tip_2114.png,Black,Green,0.53515625,q-tip 2114
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/red_under_arm_1738.png,Black,Blue,0.59033203125,red under arm 1738
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/scotch_tape_1930.png,Black,Green,0.352294921875,scotch tape 1930
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/sharpie_marker_326.png,Black,TTR,0.447021484375,sharpie marker 326
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/shoe_polish_1745.png,Black,Green,0.9892578125,shoe polish 1745
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/small_lids_1447.png,Black,Green,0.44189453125,small lids 1447
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/snacks_bag_1053.png,Black,Green,0.8720703125,snacks bag 1053
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/sponge_1054.png,Black,Green,0.9052734375,sponge 1054
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/sponge_2408.png,Black,Green,0.68896484375,sponge 2408
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/stir_stick_628.png,Black,Green,0.66064453125,stir stick 628
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/styrofoam_cup_2837.png,Black,Blue,0.374267578125,styrofoam cup 2837
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/sunscreen_bottle_329.png,Black,Blue,0.9814453125,sunscreen bottle 329
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/syrup_3386.png,Black,Blue,0.99560546875,syrup 3386
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/tape_1934.png,Black,Green,0.54833984375,tape 1934
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/tape_dispenser_330.png,Black,TTR,0.434326171875,tape dispenser 330
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/tape_measure_1935.png,Black,TTR,0.341064453125,tape measure 1935
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/tea_bag_1936.png,Black,Blue,0.5732421875,tea bag 1936
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/tea_bag_box_1134.png,Black,Blue,0.96533203125,tea bag box 1134
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/teabag_label_587.png,Black,Green,0.67529296875,teabag label 587
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/tin_foil_1450.png,Black,Blue,0.828125,tin foil 1450
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/tissue_box_2508.png,Black,Blue,0.931640625,tissue box 2508
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/tissue_box_2804.png,Black,Blue,0.921875,tissue box 2804
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/tissue_box_282.png,Black,Green,0.403564453125,tissue box 282
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/toothpaste_1937.png,Black,Blue,0.6240234375,toothpaste 1937
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/toothpaste_1938.png,Black,Blue,0.6044921875,toothpaste 1938
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/toothpaste_tube_2409.png,Black,Blue,0.53955078125,toothpaste tube 2409
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/tootpaste_tube_3464.png,Black,Blue,0.474609375,tootpaste tube 3464
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/torn_scrub_pad_1742.png,Black,Green,0.7431640625,torn scrub pad 1742
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/trasparent_plastic_wrapper_2979.png,Black,Blue,0.50390625,trasparent plastic wrapper 2979
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/unusable_pen_1452.png,Black,TTR,0.740234375,unusable pen 1452
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/unusable_pencil_2121.png,Black,TTR,0.56005859375,unusable pencil 2121
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/unused_pills_2877.png,Black,Green,0.5947265625,unused pills 2877
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_candle_1939.png,Black,TTR,0.61572265625,used candle 1939
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_condiment_container_1258.png,Black,Blue,0.6220703125,used condiment container 1258
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_deodorant_332.png,Black,Blue,0.50634765625,used deodorant 332
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_dish_sponge_2411.png,Black,Green,0.6630859375,used dish sponge 2411
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_dish_sponge_333.png,Black,Green,0.8232421875,used dish sponge 333
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_face_mask_149.png,Black,Green,0.499755859375,used face mask 149
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_fisherman_bag_334.png,Black,Green,0.380615234375,used fisherman bag 334
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_lighter_2125.png,Black,TTR,0.94287109375,used lighter 2125
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_match_1314.png,Black,Green,0.57080078125,used match 1314
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_medical_tape_and_cotton_ball_150.png,Black,Green,0.7958984375,used medical tape and cotton ball 150
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_plastic_container_3146.png,Black,Green,0.52587890625,used plastic container 3146
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_tin_foil_bag_3328.png,Black,Blue,0.4677734375,used tin foil bag 3328
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_vacuum_filter_2128.png,Black,Blue,0.466064453125,used vacuum filter 2128
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_yellow_rubber_glove_on_wood_floor_2843.png,Black,Green,0.44189453125,used yellow rubber glove on wood floor 2843
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/used_yogurt_202.png,Black,Green,0.358642578125,used yogurt 202
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/vit_c_2242.png,Black,Green,0.640625,vit c 2242
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/waste_bubble_gum_792.png,Black,Green,0.81494140625,waste bubble gum 792
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/waste_tape_2845.png,Black,Green,0.97119140625,waste tape 2845
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/water_jug_filter_2412.png,Black,Blue,0.66162109375,water jug filter 2412
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/waxed_paper_sheet_151.png,Black,Green,0.4365234375,waxed paper sheet 151
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/white_LED_light_bulb_1355.png,Black,Blue,0.41796875,white led light bulb 1355
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/white_pen_2981.png,Black,TTR,0.8388671875,white pen 2981
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/wire_scourer_2695.png,Black,Green,0.53076171875,wire scourer 2695
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/yarn_795.png,Black,Green,0.701171875,yarn 795
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/yogurt_container_seal_2280.png,Black,Blue,0.5732421875,yogurt container seal 2280
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Black/yogurt_container_seal_2556.png,Black,Blue,0.66796875,yogurt container seal 2556
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Electronic_cardboard_Packaging_551.png,Blue,TTR,0.953125,electronic cardboard packaging 551
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Empty_foam_packaging_2670.png,Blue,Black,0.51708984375,empty foam packaging 2670
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Empty_gum_pack_2785.png,Blue,Black,0.6533203125,empty gum pack 2785
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Glass_Pot_72.png,Blue,TTR,0.77880859375,glass pot 72
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Hard_paper_packet_nescafe_73.png,Blue,Black,0.52734375,hard paper packet nescafe 73
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Lolipop_Candy_936.png,Blue,Green,0.8359375,lolipop candy 936
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Not_Empty_Gum_Pack_2835.png,Blue,Black,0.701171875,not empty gum pack 2835
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Old_Painting_572.png,Blue,TTR,0.6875,old painting 572
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Old_paper_78.png,Blue,Green,0.65673828125,old paper 78
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Old_receipts_2682.png,Blue,TTR,0.853515625,old receipts 2682
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Paper_towel_83.png,Blue,Green,0.9775390625,paper towel 83
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Stretchy_plastic_bag_2660.png,Blue,Green,0.463623046875,stretchy plastic bag 2660
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Used_Sticky_Note_589.png,Blue,Black,0.55859375,used sticky note 589
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Used_Sticky_note_1701.png,Blue,Black,0.37451171875,used sticky note 1701
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/Zip_Lock_Bag_954.png,Blue,Black,0.70703125,zip lock bag 954
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/amazon_pouch_2035.png,Blue,Black,0.69873046875,amazon pouch 2035
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/arm_sling_box_1105.png,Blue,Black,0.4677734375,arm sling box 1105
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/bathing_soap_box_711.png,Blue,Black,0.466796875,bathing soap box 711
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/black_plastic_battery_door_289.png,Blue,Black,0.422119140625,black plastic battery door 289
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/booster_juice_cup_916.png,Blue,TTR,0.84619140625,booster juice cup 916
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/bread_bag_plastic_712.png,Blue,Black,0.447509765625,bread bag plastic 712
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/brochure_1109.png,Blue,Black,0.67578125,brochure 1109
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/brochure_542.png,Blue,Black,0.376220703125,brochure 542
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/broken_shoe_polish_1752.png,Blue,TTR,0.43505859375,broken shoe polish 1752
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/brown_amazon_pouch_2039.png,Blue,Black,0.5146484375,brown amazon pouch 2039
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/bubble_wrap_1391.png,Blue,Black,0.525390625,bubble wrap 1391
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/bubble_wrap_1392.png,Blue,Green,0.80029296875,bubble wrap 1392
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/bubble_wrap_1665.png,Blue,Green,0.472900390625,bubble wrap 1665
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/bubble_wrap_3225.png,Blue,Black,0.437255859375,bubble wrap 3225
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/bubblewrap_544.png,Blue,Green,0.58154296875,bubblewrap 544
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/bulb_packaging_1423.png,Blue,Black,0.6298828125,bulb packaging 1423
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/burger_wrapper_1139.png,Blue,Black,0.63037109375,burger wrapper 1139
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/camera_stand_package_3056.png,Blue,Black,0.50146484375,camera stand package 3056
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/can_of_chipotle_1825.png,Blue,Black,0.465087890625,can of chipotle 1825
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/cardboard_box_coffee_pod_3057.png,Blue,TTR,0.5400390625,cardboard box coffee pod 3057
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/cardboard_cracker_box_2922.png,Blue,Green,0.461669921875,cardboard cracker box 2922
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/cardstock_2044.png,Blue,Green,0.97265625,cardstock 2044
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/chips_packet_46.png,Blue,Black,0.90283203125,chips packet 46
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/clean_empty_plastic_cup_3229.png,Blue,Black,0.63720703125,clean empty plastic cup 3229
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/clean_napkins_2433.png,Blue,Green,0.9541015625,clean napkins 2433
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/clean_plastic_bag_220.png,Blue,Black,0.36767578125,clean plastic bag 220
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/clean_plastic_bag_885.png,Blue,Black,0.578125,clean plastic bag 885
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/clean_plastic_package_55.png,Blue,Black,0.8701171875,clean plastic package 55
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/clean_reusable_plastic_bag_2360.png,Blue,Black,0.468505859375,clean reusable plastic bag 2360
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/clean_sandwich_wrapper_2471.png,Blue,Green,0.439697265625,clean sandwich wrapper 2471
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/clean_white_plastic_container_3062.png,Blue,Green,0.4501953125,clean white plastic container 3062
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/clear_plastic_bag_1273.png,Blue,Green,0.5517578125,clear plastic bag 1273
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/coffee_paper_cup_1117.png,Blue,Green,0.85400390625,coffee paper cup 1117
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/coffee_paper_cup_1118.png,Blue,Green,0.78076171875,coffee paper cup 1118
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/collapsed_plastic_bag_389.png,Blue,Black,0.67919921875,collapsed plastic bag 389
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/container_coffee_918.png,Blue,TTR,0.94580078125,container coffee 918
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/cookie_and_cracker_trays_1528.png,Blue,Black,0.476318359375,cookie and cracker trays 1528
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/cottage_cheese_container_3285.png,Blue,Green,0.5,cottage cheese container 3285
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/cracker_box_cardboard_225.png,Blue,Black,0.46044921875,cracker box cardboard 225
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/creamer_bottle_2214.png,Blue,Black,0.4794921875,creamer bottle 2214
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/crumbled_tin_foil_3235.png,Blue,Green,0.469970703125,crumbled tin foil 3235
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/crumpled_sticky_note_390.png,Blue,Green,0.83642578125,crumpled sticky note 390
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/cup_placemat_2215.png,Blue,Green,0.9814453125,cup placemat 2215
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dirty_disposable_bowl_714.png,Blue,Black,0.51220703125,dirty disposable bowl 714
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dirty_plastic_beef_meat_packaging_2959.png,Blue,Black,0.487060546875,dirty plastic beef meat packaging 2959
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dirty_plastic_chicken_meat_tray_2960.png,Blue,Black,0.59765625,dirty plastic chicken meat tray 2960
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dirty_plastic_tray_and_disposable_cutlery_2248.png,Blue,Green,0.489013671875,dirty plastic tray and disposable cutlery 2248
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dirty_plastic_wrap_431.png,Blue,Black,0.63427734375,dirty plastic wrap 431
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dirty_ziplock_2824.png,Blue,Black,0.611328125,dirty ziplock 2824
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dirty_ziplock_bag_296.png,Blue,Black,0.6943359375,dirty ziplock bag 296
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dirty_ziplock_bag_3293.png,Blue,Black,0.7900390625,dirty ziplock bag 3293
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dishwasher_box_228.png,Blue,Black,0.50146484375,dishwasher box 228
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/disposable_paper_cup_2053.png,Blue,Green,0.455810546875,disposable paper cup 2053
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/disposable_plastic_cup_122.png,Blue,Black,0.611328125,disposable plastic cup 122
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/disposable_white_plastic_packet_for_food_125.png,Blue,Black,0.537109375,disposable white plastic packet for food 125
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/disposible_paper_wristband_298.png,Blue,Black,0.458740234375,disposible paper wristband 298
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dress_shirt_tag_229.png,Blue,Black,0.646484375,dress shirt tag 229
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/dryer_sheets_2147.png,Blue,Black,0.65576171875,dryer sheets 2147
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/earbud_tip_packaging_1531.png,Blue,Black,0.59814453125,earbud tip packaging 1531
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_amazon_paper_package_391.png,Blue,Black,0.427734375,empty amazon paper package 391
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_bread_wrapper_763.png,Blue,Black,0.572265625,empty bread wrapper 763
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_cereal_package_2639.png,Blue,Black,0.673828125,empty cereal package 2639
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_cigarette_packet_2781.png,Blue,Black,0.57470703125,empty cigarette packet 2781
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_clean_spray_box_1407.png,Blue,Black,0.6171875,empty clean spray box 1407
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_coffee_pods_box_3073.png,Blue,Black,0.72314453125,empty coffee pods box 3073
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_hair_mask_jar_2786.png,Blue,Black,0.47119140625,empty hair mask jar 2786
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_juice_pack_727.png,Blue,Black,0.705078125,empty juice pack 727
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_muffin_tray_402.png,Blue,TTR,0.404541015625,empty muffin tray 402
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_plastic_breadbag_2829.png,Blue,Black,0.85888671875,empty plastic breadbag 2829
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_plastic_jar_2481.png,Blue,Black,0.56103515625,empty plastic jar 2481
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_polythene_68.png,Blue,Green,0.98486328125,empty polythene 68
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_popcorn_packet_771.png,Blue,Black,0.5791015625,empty popcorn packet 771
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_red_plastic_cup_2792.png,Blue,Black,0.470947265625,empty red plastic cup 2792
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_roll_1019.png,Blue,Green,0.380126953125,empty roll 1019
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_stretchy_plastic_bag_407.png,Blue,Black,0.564453125,empty stretchy plastic bag 407
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_tissue_box_250.png,Blue,Green,0.292236328125,empty tissue box 250
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_toothpaste_box_3079.png,Blue,Black,0.64697265625,empty toothpaste box 3079
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/empty_ziploc_bag_410.png,Blue,Black,0.59765625,empty ziploc bag 410
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/expired_cream_cheese_2000.png,Blue,Green,0.6923828125,expired cream cheese 2000
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/finished_bubble_tea_2099.png,Blue,Black,0.4130859375,finished bubble tea 2099
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/flipped_cigarette_pack_2796.png,Blue,Black,0.6455078125,flipped cigarette pack 2796
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/foam_broccolini_package_922.png,Blue,Black,0.56640625,foam broccolini package 922
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/folded_paper_napkin_on_wood_2746.png,Blue,Green,0.9306640625,folded paper napkin on wood 2746
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/folded_sprite_can_1020.png,Blue,Black,0.43017578125,folded sprite can 1020
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/food_soiled_reusable_plastic_bag_2394.png,Blue,Black,0.6943359375,food soiled reusable plastic bag 2394
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/hot_sauce_package_3121.png,Blue,Black,0.53515625,hot sauce package 3121
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/ice_cream_tub_563.png,Blue,Black,0.53271484375,ice cream tub 563
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/knife_safety_holster_plastic_1283.png,Blue,Black,0.68798828125,knife safety holster plastic 1283
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/loose_leaf_paper_899.png,Blue,Green,0.63818359375,loose leaf paper 899
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/napkin_188.png,Blue,Green,0.9130859375,napkin 188
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/napkin_clean_189.png,Blue,Green,0.90869140625,napkin clean 189
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_cartoon_2064.png,Blue,TTR,0.8818359375,old cartoon 2064
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_cracked_plastic_lid_1291.png,Blue,Black,0.56396484375,old cracked plastic lid 1291
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_hat_2490.png,Blue,TTR,0.86865234375,old hat 2490
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_news_paper_1412.png,Blue,Green,0.515625,old news paper 1412
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_newspaper_3085.png,Blue,TTR,0.76611328125,old newspaper 3085
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_notebook_2491.png,Blue,TTR,0.94287109375,old notebook 2491
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_paper_receipt_2065.png,Blue,Black,0.344970703125,old paper receipt 2065
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_plastic_rewards_card_1296.png,Blue,Black,0.6865234375,old plastic rewards card 1296
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_receipts_1239.png,Blue,TTR,0.6669921875,old receipts 1239
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_tylenol_bottle_2228.png,Blue,TTR,0.81787109375,old tylenol bottle 2228
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/old_wine_bottle_741.png,Blue,TTR,0.916015625,old wine bottle 741
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/packaging_buble_roll_2683.png,Blue,Black,0.56591796875,packaging buble roll 2683
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_bag_1542.png,Blue,Green,0.587890625,paper bag 1542
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_chocolate_bar_wrapper_412.png,Blue,Black,0.90185546875,paper chocolate bar wrapper 412
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_cup_1415.png,Blue,Green,0.986328125,paper cup 1415
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_gift_bag_1859.png,Blue,Green,0.69482421875,paper gift bag 1859
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_napkin_2339.png,Blue,Green,0.9306640625,paper napkin 2339
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_pipe_1129.png,Blue,TTR,0.818359375,paper pipe 1129
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_shopping_bag_2232.png,Blue,Green,0.50390625,paper shopping bag 2232
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_straw_1861.png,Blue,Green,0.9931640625,paper straw 1861
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_straw_and_paper_wrapper_2194.png,Blue,Black,0.806640625,paper straw and paper wrapper 2194
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_towel_2017.png,Blue,Green,0.978515625,paper towel 2017
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_towel_26.png,Blue,Green,0.7666015625,paper towel 26
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_towel_sheets_529.png,Blue,Green,0.50537109375,paper towel sheets 529
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_with_small_tear_2944.png,Blue,Green,0.86962890625,paper with small tear 2944
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_wrapper_1130.png,Blue,Black,0.7099609375,paper wrapper 1130
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/paper_wrapper_1149.png,Blue,Black,0.56201171875,paper wrapper 1149
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/papper_file_84.png,Blue,Green,0.623046875,papper file 84
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/parcel_bag_744.png,Blue,Green,0.65576171875,parcel bag 744
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/parking_ticket_906.png,Blue,TTR,0.6298828125,parking ticket 906
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/pharmasutical-box_cardboard_2496.png,Blue,Black,0.72998046875,pharmasutical-box cardboard 2496
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/phone_packaging_1544.png,Blue,TTR,0.48974609375,phone packaging 1544
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/pink_paper_1545.png,Blue,Green,0.80029296875,pink paper 1545
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_bag_1546.png,Blue,Black,0.50439453125,plastic bag 1546
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_bag_1863.png,Blue,Black,0.354736328125,plastic bag 1863
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_bag_273.png,Blue,Black,0.433837890625,plastic bag 273
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_bag_3128.png,Blue,Green,0.33935546875,plastic bag 3128
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_bag_318.png,Blue,Black,0.68701171875,plastic bag 318
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_bag_3419.png,Blue,Black,0.529296875,plastic bag 3419
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_bubble_wrap_2497.png,Blue,Black,0.6640625,plastic bubble wrap 2497
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_cable_management_275.png,Blue,Black,0.666015625,plastic cable management 275
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_chocolate_tray_1247.png,Blue,Black,0.3671875,plastic chocolate tray 1247
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_cling_wrap_2374.png,Blue,Green,0.66357421875,plastic cling wrap 2374
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_cucumber_wrapping_1303.png,Blue,Black,0.419677734375,plastic cucumber wrapping 1303
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_envlope_1032.png,Blue,Black,0.46240234375,plastic envlope 1032
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_food_package_909.png,Blue,Black,0.69677734375,plastic food package 909
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_frame_1131.png,Blue,Black,0.72265625,plastic frame 1131
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_ice_cream_tub_1417.png,Blue,Black,0.5615234375,plastic ice cream tub 1417
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_lid_321.png,Blue,Black,0.64599609375,plastic lid 321
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_lid_3455.png,Blue,Black,0.314208984375,plastic lid 3455
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_moisturing_bottle_3422.png,Blue,Black,0.49755859375,plastic moisturing bottle 3422
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_paper_bag_2070.png,Blue,Black,0.67041015625,plastic paper bag 2070
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_plate_2112.png,Blue,Black,0.58349609375,plastic plate 2112
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_post_wrapping_2500.png,Blue,Black,0.493408203125,plastic post wrapping 2500
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_shipping_packaging_3424.png,Blue,Black,0.4990234375,plastic shipping packaging 3424
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_shopping_bag_2233.png,Blue,Green,0.417724609375,plastic shopping bag 2233
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_shopping_bag_printed_95.png,Blue,Black,0.80517578125,plastic shopping bag printed 95
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_tiffin_box_96.png,Blue,Black,0.353759765625,plastic tiffin box 96
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_wrap_3269.png,Blue,Black,0.461669921875,plastic wrap 3269
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_wrapper_1152.png,Blue,Black,0.6884765625,plastic wrapper 1152
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_wrist_band_97.png,Blue,Black,0.86572265625,plastic wrist band 97
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/plastic_ziplock_bag_2113.png,Blue,Black,0.57958984375,plastic ziplock bag 2113
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/poly_packaging_2658.png,Blue,Black,0.7060546875,poly packaging 2658
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/reciept_1870.png,Blue,Green,0.60302734375,reciept 1870
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/recycable_coffee_cup_584.png,Blue,Green,0.44970703125,recycable coffee cup 584
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/recyclable_package_2502.png,Blue,Black,0.6533203125,recyclable package 2502
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/recyclable_packaging_1418.png,Blue,Black,0.7861328125,recyclable packaging 1418
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/rubber_iphone_card_holder_140.png,Blue,Black,0.8525390625,rubber iphone card holder 140
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/sandwich_clean_wrap_2503.png,Blue,Black,0.451171875,sandwich clean wrap 2503
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/saran_wrap_3320.png,Blue,Green,0.70947265625,saran wrap 3320
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/scrap_fabric_627.png,Blue,Black,0.476318359375,scrap fabric 627
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/siggi_s_2237.png,Blue,Green,0.94677734375,siggi s 2237
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/solo_cup_585.png,Blue,TTR,0.9453125,solo cup 585
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/speaker_case_2239.png,Blue,TTR,0.98095703125,speaker case 2239
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/squashed_nylon_wraps_2689.png,Blue,Black,0.5458984375,squashed nylon wraps 2689
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/stained_togo_popeyes_bag_with_receipt_2274.png,Blue,Green,0.49658203125,stained togo popeyes bag with receipt 2274
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/straw_wrapper_1875.png,Blue,Black,0.697265625,straw wrapper 1875
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/straw_wrapper_2076.png,Blue,Black,0.7607421875,straw wrapper 2076
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/strawberry_package_3140.png,Blue,Green,0.681640625,strawberry package 3140
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/stretchy_plastic_bag_281.png,Blue,Black,0.60205078125,stretchy plastic bag 281
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/tissue_748.png,Blue,Green,0.9892578125,tissue 748
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/tissue_roll_1056.png,Blue,Black,0.387939453125,tissue roll 1056
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/tissue_roll_749.png,Blue,Black,0.355712890625,tissue roll 749
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/tissues_2240.png,Blue,Black,0.61328125,tissues 2240
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/toilet_paper_1551.png,Blue,Green,0.74951171875,toilet paper 1551
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/toilet_paper_tube_1256.png,Blue,Black,0.412353515625,toilet paper tube 1256
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/toilet_roller_1034.png,Blue,TTR,0.853515625,toilet roller 1034
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/tomato_plastic_tray_2805.png,Blue,Black,0.428955078125,tomato plastic tray 2805
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/toothpaste_box_1877.png,Blue,Black,0.67919921875,toothpaste box 1877
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/toothpaste_box_2510.png,Blue,Black,0.92578125,toothpaste box 2510
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/toothpaste_box_2691.png,Blue,Black,0.701171875,toothpaste box 2691
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/toothpaste_box_2950.png,Blue,Black,0.7626953125,toothpaste box 2950
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/toothpaste_box_3273.png,Blue,Black,0.791015625,toothpaste box 3273
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/torn_ziplock_bag_790.png,Blue,Black,0.490234375,torn ziplock bag 790
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/transparent_empty_ziploc_plastic_1257.png,Blue,Black,0.60302734375,transparent empty ziploc plastic 1257
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/tuna_fish_1161.png,Blue,Green,0.689453125,tuna fish 1161
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/unopened_smarties_box_2807.png,Blue,Black,0.56005859375,unopened smarties box 2807
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/unused_brown_napkin_2201.png,Blue,Green,0.896484375,unused brown napkin 2201
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/unused_paper_napkin_3274.png,Blue,Green,0.978515625,unused paper napkin 3274
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/unused_paper_towel_3275.png,Blue,Green,0.998046875,unused paper towel 3275
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/used_paper_791.png,Blue,Green,0.9404296875,used paper 791
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/used_paper_towel_3049.png,Blue,Green,0.96875,used paper towel 3049
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/used_plastic_bag_2980.png,Blue,Black,0.3818359375,used plastic bag 2980
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/used_straw_2842.png,Blue,Green,0.5478515625,used straw 2842
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/vape_juice_bottle_2598.png,Blue,Black,0.732421875,vape juice bottle 2598
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/waste_paper_3102.png,Blue,Green,0.51611328125,waste paper 3102
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/water_bottle_914.png,Blue,TTR,0.84716796875,water bottle 914
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/water_plastic_package_2555.png,Blue,Black,0.454345703125,water plastic package 2555
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/wax_box_3147.png,Blue,Black,0.60009765625,wax box 3147
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/white_paper_1553.png,Blue,Green,0.76513671875,white paper 1553
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/wrinkled_used_paper_1880.png,Blue,Green,0.9921875,wrinkled used paper 1880
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/yoghurt_cup_1162.png,Blue,Green,0.970703125,yoghurt cup 1162
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/yoghurt_cup_1163.png,Blue,Green,0.83056640625,yoghurt cup 1163
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/yogurt_1881.png,Blue,Green,0.7587890625,yogurt 1881
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Blue/ziplock_bag_resealable_2243.png,Blue,Black,0.724609375,ziplock bag resealable 2243
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/Food_Container_71.png,Green,Blue,0.91064453125,food container 71
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/a_tea_bag_in_a_cup_2602.png,Green,Blue,0.50390625,a tea bag in a cup 2602
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/almonds_339.png,Green,Blue,0.5419921875,almonds 339
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/apple_500.png,Green,Blue,0.78369140625,apple 500
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/broken_egg_shell_1174.png,Green,TTR,0.84326171875,broken egg shell 1174
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/cardboard_box_with_food_residue_6.png,Green,Blue,0.95166015625,cardboard box with food residue 6
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/cereal_3364.png,Green,Blue,0.86474609375,cereal 3364
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/cereals_3365.png,Green,Blue,0.6630859375,cereals 3365
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/chives_3195.png,Green,Blue,0.60546875,chives 3195
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/chocolate_snack_2892.png,Green,Black,0.51123046875,chocolate snack 2892
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/clean_paper_fork_2182.png,Green,Blue,0.9453125,clean paper fork 2182
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/clean_shawarma_paper_packaging_1395.png,Green,Blue,0.9189453125,clean shawarma paper packaging 1395
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/compostable_plate_1360.png,Green,Blue,0.55712890625,compostable plate 1360
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/cup_coaster_3401.png,Green,Blue,0.8505859375,cup coaster 3401
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/damage_banana_11.png,Green,TTR,0.71728515625,damage banana 11
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/dirty_carboard_pizza_box_12.png,Green,Blue,0.99755859375,dirty carboard pizza box 12
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/dirty_cardboard_container_2669.png,Green,Blue,0.92529296875,dirty cardboard container 2669
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/dirty_pizza_box_844.png,Green,Blue,0.96630859375,dirty pizza box 844
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/dirty_plastic_plate_1041.png,Green,Black,0.428955078125,dirty plastic plate 1041
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/disposable_wood_fork_2738.png,Green,Black,0.69091796875,disposable wood fork 2738
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/disposable_wood_knife_2739.png,Green,Black,0.38671875,disposable wood knife 2739
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/empty_egg_carton_2897.png,Green,Blue,0.9697265625,empty egg carton 2897
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/empty_paper_container_300.png,Green,Blue,0.9560546875,empty paper container 300
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/extracted_coffee_grounds_puck_2900.png,Green,Black,0.442138671875,extracted coffee grounds puck 2900
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/food_soiled_parchment_paper_350.png,Green,Blue,0.953125,food soiled parchment paper 350
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/fruit_gummy_3201.png,Green,Black,0.457763671875,fruit gummy 3201
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/greasy_cardboard_food_container_2189.png,Green,Blue,0.921875,greasy cardboard food container 2189
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/greasy_paper_bakery_box_352.png,Green,Blue,0.904296875,greasy paper bakery box 352
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/greasy_pizza_box_2905.png,Green,Blue,0.8798828125,greasy pizza box 2905
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/greasy_pizza_cardboard_2190.png,Green,Blue,0.9541015625,greasy pizza cardboard 2190
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/greasy_takeout_box_261.png,Green,Blue,0.49609375,greasy takeout box 261
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/humus_520.png,Green,Black,0.388671875,humus 520
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/lemon_3205.png,Green,Blue,0.86767578125,lemon 3205
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/melon_rinds_1374.png,Green,Blue,0.865234375,melon rinds 1374
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/moldy_grapes_187.png,Green,Blue,0.79541015625,moldy grapes 187
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/old_potato_2621.png,Green,TTR,0.537109375,old potato 2621
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/paper_coffee_sleeve_860.png,Green,Blue,0.9541015625,paper coffee sleeve 860
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/paper_plate_1514.png,Green,Blue,0.49609375,paper plate 1514
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/particle_board_2401.png,Green,Black,0.486083984375,particle board 2401
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/plastic_bag_3451.png,Green,Black,0.390625,plastic bag 3451
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/takeout_container_1521.png,Green,Blue,0.95556640625,takeout container 1521
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/teag_bag_3387.png,Green,Blue,0.46337890625,teag bag 3387
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/tissue_for_wiping_1522.png,Green,Black,0.634765625,tissue for wiping 1522
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/tissue_paper_198.png,Green,Blue,0.87744140625,tissue paper 198
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/toilet_paper_2460.png,Green,Blue,0.77880859375,toilet paper 2460
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/toilet_paper_533.png,Green,Blue,0.88525390625,toilet paper 533
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/toilet_paper_roll_1820.png,Green,Blue,0.93115234375,toilet paper roll 1820
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/used_burger_wrapper_199.png,Green,Black,0.83154296875,used burger wrapper 199
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/used_candy_370.png,Green,Black,0.5556640625,used candy 370
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/used_paper_straw_372.png,Green,Blue,0.869140625,used paper straw 372
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/used_tissue_1580.png,Green,Blue,0.390380859375,used tissue 1580
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/used_tissue_2345.png,Green,Black,0.447509765625,used tissue 2345
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/used_toothpick_3222.png,Green,Blue,0.456298828125,used toothpick 3222
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/water_melon_3051.png,Green,Blue,0.8564453125,water melon 3051
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/wheat_709.png,Green,Blue,0.63671875,wheat 709
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/whole_water_melon_3052.png,Green,Blue,0.89013671875,whole water melon 3052
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/wine_bottle_cork_2347.png,Green,Blue,0.96337890625,wine bottle cork 2347
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/wine_cork_3223.png,Green,Blue,0.5673828125,wine cork 3223
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/Green/wooden_toothpick_3053.png,Green,Black,0.58935546875,wooden toothpick 3053
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Air_freshener_spray_bottle_2133.png,TTR,Blue,0.44580078125,air freshener spray bottle 2133
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Beaker_with_chemical_2560.png,TTR,Blue,0.62255859375,beaker with chemical 2560
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Button_1713.png,TTR,Green,0.97216796875,button 1713
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/CD_case_2519.png,TTR,Blue,0.99365234375,cd case 2519
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Cellphone_adapter_2854.png,TTR,Blue,0.44384765625,cellphone adapter 2854
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Dirty_Book_549.png,TTR,Blue,0.60693359375,dirty book 549
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Empty_Shopping_Bag_127.png,TTR,Blue,0.330078125,empty shopping bag 127
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Empty_bottle_of_detergent_2703.png,TTR,Blue,0.66650390625,empty bottle of detergent 2703
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Empty_toilet_bowl_cleaner_2704.png,TTR,Blue,0.962890625,empty toilet bowl cleaner 2704
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/LED_metal_and_plastic_light_bulb_131.png,TTR,Black,0.4833984375,led metal and plastic light bulb 131
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Labtop_981.png,TTR,Black,0.44970703125,labtop 981
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Lysol_Disinfectant_Spray_bottle_1918.png,TTR,Black,0.7490234375,lysol disinfectant spray bottle 1918
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Old_Frying_Pan_1734.png,TTR,Green,0.95458984375,old frying pan 1734
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Old_Ripped_Hoodie_573.png,TTR,Black,0.51123046875,old ripped hoodie 573
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Old_Rubber_band_2106.png,TTR,Black,0.62451171875,old rubber band 2106
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Old_broken_toaster_2710.png,TTR,Black,0.3857421875,old broken toaster 2710
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Old_pair_of_gloves_2714.png,TTR,Black,0.483154296875,old pair of gloves 2714
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Reusable_bag_cloth_167.png,TTR,Black,0.59423828125,reusable bag cloth 167
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Shoelace_2514.png,TTR,Green,0.416015625,shoelace 2514
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Smoke_Detector_987.png,TTR,Blue,0.347412109375,smoke detector 987
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/USB_Converter_992.png,TTR,Black,0.64013671875,usb converter 992
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/USB_buetooth_adapter_2878.png,TTR,Green,0.315185546875,usb buetooth adapter 2878
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Used_napkin_2723.png,TTR,Green,0.7998046875,used napkin 2723
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/Videogame_Plastic_Box_635.png,TTR,Black,0.44287109375,videogame plastic box 635
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/acetone_empty_container_2132.png,TTR,Blue,0.986328125,acetone empty container 2132
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/aerosol_oven_cleaner_958.png,TTR,Blue,0.489501953125,aerosol oven cleaner 958
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/aerosol_shaving_cream_959.png,TTR,Black,0.479248046875,aerosol shaving cream 959
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/aerosol_shaving_foam_1460.png,TTR,Blue,0.607421875,aerosol shaving foam 1460
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/air_freshener_1703.png,TTR,Blue,0.61279296875,air freshener 1703
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/air_freshener_2558.png,TTR,Blue,0.57421875,air freshener 2558
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/all_purpose_cleaner_2848.png,TTR,Blue,0.6533203125,all purpose cleaner 2848
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/anti_freeze_container_2699.png,TTR,Blue,0.81884765625,anti freeze container 2699
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/anti_grease_cleaner_empty_container_2134.png,TTR,Blue,0.66064453125,anti grease cleaner empty container 2134
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/antifreeze_concentrate_container_1743.png,TTR,Blue,0.43798828125,antifreeze concentrate container 1743
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/arduino_microcontroller_2985.png,TTR,Green,0.32470703125,arduino microcontroller 2985
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/automotive_epoxy_3469.png,TTR,Black,0.397705078125,automotive epoxy 3469
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/baseball_cap_3332.png,TTR,Black,0.478759765625,baseball cap 3332
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/bathroom_germ_fighter_2849.png,TTR,Blue,0.59619140625,bathroom germ fighter 2849
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/big_makeup_brush_1264.png,TTR,Black,0.5263671875,big makeup brush 1264
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/binder_1557.png,TTR,Black,0.45068359375,binder 1557
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/binder_1558.png,TTR,Black,0.337890625,binder 1558
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/bleach_empty_bottle_2135.png,TTR,Blue,0.9892578125,bleach empty bottle 2135
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/bleach_empty_container_2136.png,TTR,Blue,0.9755859375,bleach empty container 2136
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/bluetooth_adapter_1590.png,TTR,Black,0.5224609375,bluetooth adapter 1590
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/bluetooth_speaker_3470.png,TTR,Black,0.5810546875,bluetooth speaker 3470
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/blunt_scissors_754.png,TTR,Black,0.48876953125,blunt scissors 754
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/brake_cleaner_3471.png,TTR,Blue,0.5791015625,brake cleaner 3471
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_baby_walker_798.png,TTR,Black,0.34033203125,broken baby walker 798
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_cable_2850.png,TTR,Black,0.4833984375,broken cable 2850
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_cellphone_3333.png,TTR,Black,0.435302734375,broken cellphone 3333
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_charging_port_plastic_1269.png,TTR,Green,0.386962890625,broken charging port plastic 1269
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_eyeglasses_2851.png,TTR,Black,0.68115234375,broken eyeglasses 2851
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_hair_dryer_2852.png,TTR,Black,0.454833984375,broken hair dryer 2852
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_incense_burner_1559.png,TTR,Black,0.607421875,broken incense burner 1559
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_metal_tongs_with_rubber_sections_109.png,TTR,Black,0.5625,broken metal tongs with rubber sections 109
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_plastic_and_metal_coat_hanger_421.png,TTR,Black,0.64697265625,broken plastic and metal coat hanger 421
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_plastic_remote_1270.png,TTR,Black,0.486328125,broken plastic remote 1270
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_plastic_toy_422.png,TTR,Black,0.75732421875,broken plastic toy 422
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_toaster_1711.png,TTR,Black,0.374755859375,broken toaster 1711
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/broken_utility_knife_plastic_metal_1976.png,TTR,Black,0.580078125,broken utility knife plastic metal 1976
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/brown_boot_1323.png,TTR,Black,0.275390625,brown boot 1323
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/burned_out_light_bulb_1885.png,TTR,Black,0.57177734375,burned out light bulb 1885
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/cable_3436.png,TTR,Blue,0.34912109375,cable 3436
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/capped_disinfect_spray_1755.png,TTR,Black,0.54833984375,capped disinfect spray 1755
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/ceramic_bottle_3437.png,TTR,Blue,0.978515625,ceramic bottle 3437
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/chemical_bleach_966.png,TTR,Blue,0.465576171875,chemical bleach 966
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/chemical_paint_can_968.png,TTR,Blue,0.9658203125,chemical paint can 968
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/clean_glass_cup_597.png,TTR,Blue,0.97509765625,clean glass cup 597
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/clean_metal_spoon_598.png,TTR,Black,0.53466796875,clean metal spoon 598
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/clean_sweater_1756.png,TTR,Black,0.36767578125,clean sweater 1756
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/cleaner_empty_container_2140.png,TTR,Blue,0.99267578125,cleaner empty container 2140
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/cleaning_material_2289.png,TTR,Black,0.479248046875,cleaning material 2289
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/cleaning_wipes_2141.png,TTR,Blue,0.61181640625,cleaning wipes 2141
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/closed_bleach_bottle_472.png,TTR,Blue,0.99267578125,closed bleach bottle 472
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/closed_tool_box_3107.png,TTR,Blue,0.92919921875,closed tool box 3107
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/clothing_sock_969.png,TTR,Black,0.64892578125,clothing sock 969
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/compact_fluorescent_light_bulb_1594.png,TTR,Black,0.43603515625,compact fluorescent light bulb 1594
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/compact_fluorescent_light_bulb_3154.png,TTR,Black,0.5302734375,compact fluorescent light bulb 3154
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/compostable_ruler_1362.png,TTR,Green,0.435302734375,compostable ruler 1362
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/compressed_air_duster_1595.png,TTR,Black,0.56640625,compressed air duster 1595
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/compressed_air_duster_spray_1326.png,TTR,Blue,0.414306640625,compressed air duster spray 1326
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/compressed_gas_container_3474.png,TTR,Blue,0.98974609375,compressed gas container 3474
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/corrosive_drain_cleaner_1472.png,TTR,Blue,0.90185546875,corrosive drain cleaner 1472
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/crumpled_trouser_1757.png,TTR,Green,0.367431640625,crumpled trouser 1757
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dead_hygrometer_476.png,TTR,Black,0.404296875,dead hygrometer 476
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/deodorant_spray_2856.png,TTR,Black,0.42919921875,deodorant spray 2856
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dirty_beach_towel_3337.png,TTR,Green,0.9833984375,dirty beach towel 3337
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dirty_fabric_toy_1896.png,TTR,Green,0.463623046875,dirty fabric toy 1896
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dirty_old_rag_cloth_1275.png,TTR,Green,0.42626953125,dirty old rag cloth 1275
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dirty_paint_canister_metal_1950.png,TTR,Blue,0.9873046875,dirty paint canister metal 1950
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dirty_rag_1276.png,TTR,Green,0.97265625,dirty rag 1276
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dirty_shoes_1758.png,TTR,Green,0.9033203125,dirty shoes 1758
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dirty_slippers_1597.png,TTR,Black,0.66015625,dirty slippers 1597
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dirty_socks_1042.png,TTR,Black,0.47021484375,dirty socks 1042
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dirty_toothbrush_1562.png,TTR,Black,0.59423828125,dirty toothbrush 1562
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dirty_wooden_spoon_687.png,TTR,Green,0.9306640625,dirty wooden spoon 687
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/disco_ball_297.png,TTR,Black,0.400146484375,disco ball 297
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/discontinued_label_printer_478.png,TTR,Blue,0.95751953125,discontinued label printer 478
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dish_cloth_645.png,TTR,Black,0.336669921875,dish cloth 645
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dishwasher_detergent_2145.png,TTR,Black,0.5224609375,dishwasher detergent 2145
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/disinfectant_bottle_479.png,TTR,Blue,0.875,disinfectant bottle 479
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dongle_1563.png,TTR,Green,0.71923828125,dongle 1563
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/drano_container_1430.png,TTR,Blue,0.56884765625,drano container 1430
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/dry_shampoo_spray_can_2146.png,TTR,Black,0.44384765625,dry shampoo spray can 2146
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/ear_plugs_3403.png,TTR,Black,0.480712890625,ear plugs 3403
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/earbud_charger_970.png,TTR,Black,0.4775390625,earbud charger 970
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/elastic_band_1722.png,TTR,Black,0.41796875,elastic band 1722
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/elastic_bands_1723.png,TTR,Black,0.61376953125,elastic bands 1723
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/electric_ereader_1328.png,TTR,Blue,0.342041015625,electric ereader 1328
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/electric_razor_1332.png,TTR,Black,0.48291015625,electric razor 1332
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/electric_toothbrush_head_2390.png,TTR,Black,0.62060546875,electric toothbrush head 2390
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/electronic_toothbrush_1068.png,TTR,Black,0.54296875,electronic toothbrush 1068
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_CO_cylinder_1334.png,TTR,Blue,0.85009765625,empty co cylinder 1334
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_audi_hydrocarbons_container_2993.png,TTR,Blue,0.9462890625,empty audi hydrocarbons container 2993
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_automotive_spray_paint_can_1759.png,TTR,Blue,0.4580078125,empty automotive spray paint can 1759
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_bleach_bottle_233.png,TTR,Blue,0.9921875,empty bleach bottle 233
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_butane_canister_3338.png,TTR,Blue,0.92724609375,empty butane canister 3338
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_butane_canister_481.png,TTR,Blue,0.9521484375,empty butane canister 481
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_butane_gas_can_3158.png,TTR,Blue,0.9482421875,empty butane gas can 3158
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_butane_gas_canister_2860.png,TTR,Blue,0.828125,empty butane gas canister 2860
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_cleaning_chemical_2148.png,TTR,Blue,0.60546875,empty cleaning chemical 2148
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_computer_duster_3159.png,TTR,Blue,0.798828125,empty computer duster 3159
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_contact_cement_can_2994.png,TTR,Blue,0.63330078125,empty contact cement can 2994
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_draino_bottle_63.png,TTR,Blue,0.9462890625,empty draino bottle 63
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_febreeze_can_2149.png,TTR,Blue,0.86962890625,empty febreeze can 2149
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_hair_color_spray_canister_3339.png,TTR,Black,0.445556640625,empty hair color spray canister 3339
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_leather_cleaning_canister_3341.png,TTR,Blue,0.5380859375,empty leather cleaning canister 3341
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_lysol_cleaner_3342.png,TTR,Blue,0.8583984375,empty lysol cleaner 3342
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_mosquito_spray_canister_3343.png,TTR,Blue,0.49267578125,empty mosquito spray canister 3343
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_plastic_container_3300.png,TTR,Blue,0.94580078125,empty plastic container 3300
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_printer_cartridge_3160.png,TTR,Black,0.294677734375,empty printer cartridge 3160
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_rust_paint_container_2995.png,TTR,Blue,0.96728515625,empty rust paint container 2995
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_smoke_aerosal_can_1760.png,TTR,Blue,0.435546875,empty smoke aerosal can 1760
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_spray_bottle_247.png,TTR,Blue,0.65673828125,empty spray bottle 247
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_spray_can_2484.png,TTR,Blue,0.425048828125,empty spray can 2484
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_spray_paint_can_2152.png,TTR,Blue,0.351318359375,empty spray paint can 2152
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_sunscreen_canister_3344.png,TTR,Blue,0.413818359375,empty sunscreen canister 3344
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_toluene_can_2996.png,TTR,Blue,0.98876953125,empty toluene can 2996
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_transmission_fluid_bottle_2997.png,TTR,Blue,0.36669921875,empty transmission fluid bottle 2997
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_water_bottle_557.png,TTR,Blue,0.97998046875,empty water bottle 557
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_windshield_wiper_fluid_3260.png,TTR,Blue,0.50537109375,empty windshield wiper fluid 3260
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/empty_wood_finish_pail_2998.png,TTR,Blue,0.83056640625,empty wood finish pail 2998
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/expired_bug_spray_482.png,TTR,Black,0.46142578125,expired bug spray 482
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/expired_fire_extinguisher_1763.png,TTR,Blue,0.3642578125,expired fire extinguisher 1763
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/expired_fire_extinguisher_483.png,TTR,Blue,0.77734375,expired fire extinguisher 483
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/expired_prescription_drugs_1764.png,TTR,Green,0.8798828125,expired prescription drugs 1764
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/eyewear_805.png,TTR,Black,0.638671875,eyewear 805
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/fake_plant_1044.png,TTR,Green,0.96923828125,fake plant 1044
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/febreeze_bottle_1910.png,TTR,Blue,0.81689453125,febreeze bottle 1910
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/febreeze_bottle_1911.png,TTR,Blue,0.81201171875,febreeze bottle 1911
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/febreze_aerosol_container_649.png,TTR,Black,0.58837890625,febreze aerosol container 649
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/febreze_aerosol_spray_bottle_3162.png,TTR,Black,0.404052734375,febreze aerosol spray bottle 3162
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/filled_glass_cleaner_bottle_484.png,TTR,Blue,0.9912109375,filled glass cleaner bottle 484
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/fingernail_polish_bottle_3163.png,TTR,Black,0.404541015625,fingernail polish bottle 3163
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/fire_extinguisher_979.png,TTR,Black,0.441650390625,fire extinguisher 979
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/floor_cleaning_chemical_2153.png,TTR,Blue,0.630859375,floor cleaning chemical 2153
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/foam_drink_coozie_2393.png,TTR,Black,0.6123046875,foam drink coozie 2393
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/foam_phone_holder_1727.png,TTR,Black,0.716796875,foam phone holder 1727
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/foam_roller_602.png,TTR,Black,0.416015625,foam roller 602
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/folded_patagonia_sweater_3345.png,TTR,Green,0.9130859375,folded patagonia sweater 3345
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/glass_cleaner_2861.png,TTR,Blue,0.970703125,glass cleaner 2861
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/glass_cleaner_empty_container_2155.png,TTR,Blue,0.98046875,glass cleaner empty container 2155
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/glasses_protector_2253.png,TTR,Black,0.44091796875,glasses protector 2253
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/greasy_tray_439.png,TTR,Blue,0.8740234375,greasy tray 439
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/grocery_bag_1539.png,TTR,Blue,0.9501953125,grocery bag 1539
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/hair_clip_2254.png,TTR,Black,0.58984375,hair clip 2254
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/hair_spray_canister_3483.png,TTR,Black,0.427001953125,hair spray canister 3483
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/half_full_gas_bottle_159.png,TTR,Blue,0.97998046875,half full gas bottle 159
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/half_full_gear_oil_bottle_160.png,TTR,Blue,0.732421875,half full gear oil bottle 160
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/half_full_metal_paint_can_161.png,TTR,Blue,0.986328125,half full metal paint can 161
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/half_full_plastic_bleach_container_162.png,TTR,Blue,0.83203125,half full plastic bleach container 162
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/half_full_spray_paint_aerosol_can_163.png,TTR,Blue,0.411376953125,half full spray paint aerosol can 163
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/hanger_1567.png,TTR,Black,0.448486328125,hanger 1567
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/hard_plastic_washerfluid_container_1232.png,TTR,Blue,0.6767578125,hard plastic washerfluid container 1232
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/head_ice_cap_2705.png,TTR,Black,0.498291015625,head ice cap 2705
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/headset_1602.png,TTR,Blue,0.41748046875,headset 1602
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/hedset_box_1171.png,TTR,Blue,0.95166015625,hedset box 1171
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/house_paint_gallon_can_3164.png,TTR,Blue,0.98828125,house paint gallon can 3164
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/house_paint_sample_3165.png,TTR,Blue,0.8349609375,house paint sample 3165
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/insecticide_can_aerosol_3166.png,TTR,Black,0.459716796875,insecticide can aerosol 3166
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/keurig_coffee_maker_658.png,TTR,Green,0.5166015625,keurig coffee maker 658
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/laundry_basket_2539.png,TTR,Blue,0.415283203125,laundry basket 2539
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/leather_boot_2419.png,TTR,Black,0.385498046875,leather boot 2419
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/leftover_cotton_fabric_3346.png,TTR,Green,0.9833984375,leftover cotton fabric 3346
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/light_bulb_1046.png,TTR,Black,0.467529296875,light bulb 1046
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/light_bulb_2707.png,TTR,Black,0.4560546875,light bulb 2707
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/light_stand_1070.png,TTR,Green,0.40185546875,light stand 1070
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/lululemon_bag_2225.png,TTR,Blue,0.98486328125,lululemon bag 2225
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/lysol_toiler_cleaner_984.png,TTR,Blue,0.8115234375,lysol toiler cleaner 984
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/makeup_package_3122.png,TTR,Black,0.421875,makeup package 3122
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/metal_hairspray_bottle_2420.png,TTR,Blue,0.357666015625,metal hairspray bottle 2420
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/microfiber_cloth_1610.png,TTR,Black,0.348876953125,microfiber cloth 1610
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/moccasins_1611.png,TTR,Green,0.92431640625,moccasins 1611
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/mouse_pad_3449.png,TTR,Black,0.52392578125,mouse pad 3449
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/nail_clipper_1572.png,TTR,Black,0.86474609375,nail clipper 1572
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/nail_polish_315.png,TTR,Black,0.6162109375,nail polish 315
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/new_cloth_3167.png,TTR,Black,0.326904296875,new cloth 3167
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/new_work_out_glove_3168.png,TTR,Green,0.69677734375,new work out glove 3168
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_adapter_cable_1338.png,TTR,Black,0.451904296875,old adapter cable 1338
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_book_2157.png,TTR,Black,0.422119140625,old book 2157
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_broken_hourglass_plastic_1288.png,TTR,Blue,0.4013671875,old broken hourglass plastic 1288
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_cloth_glove_1339.png,TTR,Black,0.6796875,old cloth glove 1339
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_dirty_scarf_2489.png,TTR,Black,0.478515625,old dirty scarf 2489
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_dish_cloth_165.png,TTR,Green,0.56591796875,old dish cloth 165
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_extra_slipper_cloth_1340.png,TTR,Black,0.401123046875,old extra slipper cloth 1340
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_facecap_778.png,TTR,Black,0.465087890625,old facecap 778
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_fake_plant_1953.png,TTR,Green,0.9638671875,old fake plant 1953
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_knit_mitten_1954.png,TTR,Black,0.52685546875,old knit mitten 1954
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_pijamas_2492.png,TTR,Green,0.82666015625,old pijamas 2492
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_reusable_dryer_sheet_2108.png,TTR,Black,0.409423828125,old reusable dryer sheet 2108
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_ripped_golf_glove_3308.png,TTR,Black,0.61474609375,old ripped golf glove 3308
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_sock_2972.png,TTR,Black,0.42626953125,old sock 2972
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_toaster_2583.png,TTR,Black,0.521484375,old toaster 2583
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_used_candle_plastic_wax_1298.png,TTR,Green,0.381591796875,old used candle plastic wax 1298
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/old_weights_dumbbells_819.png,TTR,Black,0.4140625,old weights dumbbells 819
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/oven_cleaner_2871.png,TTR,Blue,0.884765625,oven cleaner 2871
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/paint_can_2421.png,TTR,Blue,0.98046875,paint can 2421
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/paint_can_with_some_paint_left_2717.png,TTR,Blue,0.98876953125,paint can with some paint left 2717
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/paint_can_with_used_paint_2718.png,TTR,Blue,0.98974609375,paint can with used paint 2718
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/pair_of_socks_3351.png,TTR,Green,0.5302734375,pair of socks 3351
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/pallet_3178.png,TTR,Black,0.377685546875,pallet 3178
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/parrot_2261.png,TTR,Green,0.939453125,parrot 2261
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/partially_burned_yellow_candle_in_jar_2872.png,TTR,Green,0.68603515625,partially burned yellow candle in jar 2872
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/pepper_spray_1485.png,TTR,Black,0.40234375,pepper spray 1485
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/picture_frame_1073.png,TTR,Blue,0.5126953125,picture frame 1073
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/pink_plastic_sun_glasses_1345.png,TTR,Black,0.390869140625,pink plastic sun glasses 1345
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_CD_case_135.png,TTR,Black,0.492431640625,plastic cd case 135
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_basket_2069.png,TTR,Black,0.34423828125,plastic basket 2069
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_bottle_holder_3311.png,TTR,Blue,0.8701171875,plastic bottle holder 3311
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_bowl_2262.png,TTR,Black,0.410888671875,plastic bowl 2262
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_cleaning_bottle_577.png,TTR,Blue,0.98095703125,plastic cleaning bottle 577
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_coat_hanger_618.png,TTR,Black,0.51513671875,plastic coat hanger 618
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_old_lysol_can_1347.png,TTR,Blue,0.548828125,plastic old lysol can 1347
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_plant_2403.png,TTR,Green,0.9814453125,plastic plant 2403
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_ruler_2501.png,TTR,Blue,0.398681640625,plastic ruler 2501
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_sunglasses_623.png,TTR,Black,0.61865234375,plastic sunglasses 623
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_sunglasses_665.png,TTR,Black,0.406982421875,plastic sunglasses 665
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/plastic_water_gun_624.png,TTR,Black,0.6162109375,plastic water gun 624
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/polyester_shorts_625.png,TTR,Black,0.63623046875,polyester shorts 625
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/prescription_pills_3456.png,TTR,Blue,0.95947265625,prescription pills 3456
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/pressurized_flammable_chemical_canister_1350.png,TTR,Blue,0.689453125,pressurized flammable chemical canister 1350
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/propane_cans_1487.png,TTR,Blue,0.66552734375,propane cans 1487
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/propane_tank_166.png,TTR,Blue,0.408935546875,propane tank 166
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/recyclable_shopping_bag_2074.png,TTR,Black,0.384765625,recyclable shopping bag 2074
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/red_plastic_clothes_hanger_1308.png,TTR,Black,0.490234375,red plastic clothes hanger 1308
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/reusable_fabric_bag_2405.png,TTR,Black,0.6279296875,reusable fabric bag 2405
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/reusable_shopping_bag_1777.png,TTR,Black,0.34228515625,reusable shopping bag 1777
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/reusable_shopping_bag_324.png,TTR,Blue,0.4697265625,reusable shopping bag 324
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/ribbon_325.png,TTR,Green,0.31982421875,ribbon 325
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/rice_cooker_old_168.png,TTR,Green,0.95166015625,rice cooker old 168
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/ripped_cleaning_cloth_3180.png,TTR,Black,0.494873046875,ripped cleaning cloth 3180
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/ripped_leggings_491.png,TTR,Black,0.421875,ripped leggings 491
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/rubber_and_metal_car_tire_169.png,TTR,Black,0.388671875,rubber and metal car tire 169
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/rubber_band_1075.png,TTR,Black,0.56591796875,rubber band 1075
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/rubber_band_1309.png,TTR,Black,0.6611328125,rubber band 1309
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/rubber_band_2406.png,TTR,Black,0.53466796875,rubber band 2406
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/rubber_band_2548.png,TTR,Black,0.60302734375,rubber band 2548
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/rubber_band_3427.png,TTR,Black,0.50244140625,rubber band 3427
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/rubber_band_3457.png,TTR,Black,0.4794921875,rubber band 3457
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/rubber_garden_hose_2115.png,TTR,Green,0.384033203125,rubber garden hose 2115
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/rug_cleaning_chemical_2160.png,TTR,Black,0.49951171875,rug cleaning chemical 2160
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/ruined_led_strip_1351.png,TTR,Green,0.86181640625,ruined led strip 1351
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/scratched_frying_pan_1778.png,TTR,Green,0.97998046875,scratched frying pan 1778
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/shaker_bottle_1931.png,TTR,Blue,0.97802734375,shaker bottle 1931
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/shaving_cream_aerosol_can_170.png,TTR,Black,0.483154296875,shaving cream aerosol can 170
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/shaving_cream_aerosol_can_171.png,TTR,Black,0.64404296875,shaving cream aerosol can 171
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/shaving_cream_aerosol_container_666.png,TTR,Blue,0.67919921875,shaving cream aerosol container 666
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/shaving_cream_canister_3498.png,TTR,Blue,0.5498046875,shaving cream canister 3498
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/shopping_bag_cloth_172.png,TTR,Black,0.8330078125,shopping bag cloth 172
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/simcard_2591.png,TTR,Black,0.525390625,simcard 2591
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/small_green_propane_canister_2424.png,TTR,Blue,0.50439453125,small green propane canister 2424
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/small_lcd_display_3004.png,TTR,Black,0.544921875,small lcd display 3004
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/sock_1614.png,TTR,Black,0.337646484375,sock 1614
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/soda_stream_co_cannister_1990.png,TTR,Blue,0.75244140625,soda stream co cannister 1990
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/soiled_glove_2161.png,TTR,Green,0.5732421875,soiled glove 2161
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/soiled_reuseable_bag_2162.png,TTR,Green,0.943359375,soiled reuseable bag 2162
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/soiled_sweatpants_3499.png,TTR,Green,0.310546875,soiled sweatpants 3499
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/spoiled_nail_polish_glass_1991.png,TTR,Blue,0.5595703125,spoiled nail polish glass 1991
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/spoon_1576.png,TTR,Green,0.7470703125,spoon 1576
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/spray_foam_insulation_canister_2425.png,TTR,Blue,0.458251953125,spray foam insulation canister 2425
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/spray_paint_can_493.png,TTR,Blue,0.47119140625,spray paint can 493
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/squirtle_2273.png,TTR,Black,0.410888671875,squirtle 2273
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/stuffed_octopus_1615.png,TTR,Green,0.96435546875,stuffed octopus 1615
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/styrofoam_football_328.png,TTR,Black,0.59521484375,styrofoam football 328
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/sunglass_usable_173.png,TTR,Green,0.80078125,sunglass usable 173
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/tablet_cover_3460.png,TTR,Blue,0.54541015625,tablet cover 3460
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/tablets_2592.png,TTR,Black,0.484130859375,tablets 2592
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/tie_wraps_1055.png,TTR,Black,0.5947265625,tie wraps 1055
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/toilet_bowl_cleaner_empty_container_2163.png,TTR,Blue,0.966796875,toilet bowl cleaner empty container 2163
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/toilet_cleaner_2875.png,TTR,Blue,0.9560546875,toilet cleaner 2875
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/unusable_doll_2841.png,TTR,Green,0.54248046875,unusable doll 2841
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/unusable_frying_pan_1451.png,TTR,Green,0.68017578125,unusable frying pan 1451
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/unused_kitchen_cloth_831.png,TTR,Green,0.71728515625,unused kitchen cloth 831
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/usable_nail_clipper_174.png,TTR,Black,0.697265625,usable nail clipper 174
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/usb_c_cable_3500.png,TTR,Blue,0.775390625,usb c cable 3500
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/usb_cable_2595.png,TTR,Blue,0.46728515625,usb cable 2595
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/usb_drive_3501.png,TTR,Blue,0.9228515625,usb drive 3501
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_ink_container_2165.png,TTR,Blue,0.771484375,used ink container 2165
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_napkin_1035.png,TTR,Green,0.95068359375,used napkin 1035
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_paint_3185.png,TTR,Blue,0.85400390625,used paint 3185
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_paint_can_2724.png,TTR,Blue,0.9931640625,used paint can 2724
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_paint_container_2725.png,TTR,Blue,0.95849609375,used paint container 2725
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_pair_shoes_3355.png,TTR,Black,0.445068359375,used pair shoes 3355
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_pillow_case_2166.png,TTR,Green,0.5126953125,used pillow case 2166
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_plastic_coated_wire_147.png,TTR,Black,0.6357421875,used plastic coated wire 147
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_rag_671.png,TTR,Green,0.9697265625,used rag 671
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_rice_cooker_3007.png,TTR,Green,0.94775390625,used rice cooker 3007
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_sandal_2884.png,TTR,Black,0.423583984375,used sandal 2884
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_scissors_456.png,TTR,Black,0.59912109375,used scissors 456
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_shirt_2167.png,TTR,Green,0.8515625,used shirt 2167
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_sneaker_3186.png,TTR,Black,0.488037109375,used sneaker 3186
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_sock_2168.png,TTR,Black,0.56591796875,used sock 2168
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_socks_2885.png,TTR,Black,0.6103515625,used socks 2885
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_toaster_3008.png,TTR,Black,0.5087890625,used toaster 3008
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/used_work_glove_3356.png,TTR,Black,0.80126953125,used work glove 3356
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/vacuum_flask_1618.png,TTR,Blue,0.396484375,vacuum flask 1618
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/wallet_1581.png,TTR,Green,0.8251953125,wallet 1581
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/wallet_3502.png,TTR,Blue,0.9619140625,wallet 3502
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/white_electrical_adapter_on_wooden_floor_2886.png,TTR,Black,0.583984375,white electrical adapter on wooden floor 2886
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/wine_glass_288.png,TTR,Green,0.94091796875,wine glass 288
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/wired_earbuds_1356.png,TTR,Black,0.449951171875,wired earbuds 1356
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/wooden_tray_1584.png,TTR,Green,0.88232421875,wooden tray 1584
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/worn_off_screwdriver_458.png,TTR,Black,0.4912109375,worn off screwdriver 458
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/worn_out_sock_2172.png,TTR,Black,0.5439453125,worn out sock 2172
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/worn_yellow_grey_sock_on_wood_2887.png,TTR,Black,0.55224609375,worn yellow grey sock on wood 2887
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/wristwatch_636.png,TTR,Black,0.435302734375,wristwatch 636
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/yellow_tinted_sunglasses_2322.png,TTR,Black,0.4892578125,yellow tinted sunglasses 2322
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/yogurt_container_1783.png,TTR,Blue,0.9677734375,yogurt container 1783
+/work/TALC/ensf617_2026w/garbage_data/CVPR_2024_dataset_Test/TTR/ziptie_3468.png,TTR,Black,0.57861328125,ziptie 3468

@@ -61,7 +61,7 @@ def run_one(mode: str, data_dir: str, device: str):
 
     cfg = TrainConfig(
         device=device, 
-        max_epochs=30, 
+        max_epochs=1, 
         logger=logger, 
         grad_clip_norm=1.0, 
         save_path=f"best_{mode}.pth", 
