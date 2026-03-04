@@ -4,6 +4,16 @@
 #Also full reference to ENSF 617 content and Dr. De Souza, as we leveraged his examples heavily in all apsects of our code along with the tutorials
 #and none of this would be possible without it, many portions were borrowed and augmented for our data set
 
+
+
+
+#This file represents our trainer so that we can take a model with the respective batch and return the logits
+#it also contains all our neccesary loaders that takes in our batches - which contain the labels - we set up like this our processing so that we batches
+# and finally also an optimizer and loss for our model
+
+#The key aspects are training, with respective EPOCHS (we used 20 for final model which can be seen in our notebook and in main - but set to 10 as default (overwritten later))
+# and then validating after each EPCHS and then saving the best model through each run"
+
 import csv
 import json
 import time
@@ -27,6 +37,8 @@ from pipeline_logger import PipelineLogger
 
 @dataclass(frozen=True)
 class TrainConfig:
+    """
+    This is our configurer and how we envisioned it and controls all aspects of our behaviour which includes default settings for EPCH, device, logger - referencing our Pipeline Logger"""
     device: str
     max_epochs: int = 10
     logger: Optional[PipelineLogger] = None
@@ -38,6 +50,9 @@ class TrainConfig:
 
 
 class Trainer:
+    """
+    Sets up our trainer, loss function along with our counters
+    It also sets up scaling with the GradScaler - the steps within here have full reference to ENSF 617 tutorials which were so helpful and easy to follow"""
     def __init__(self, cfg: TrainConfig, loss_fn: Callable[[torch.Tensor, torch.Tensor], torch.Tensor]):
         self.cfg = cfg
         self.device = torch.device(cfg.device)

@@ -23,7 +23,7 @@ from transformers import AutoModel
 #defining the modes
 Mode = Literal["image", "text", "multimodal"]
 
-#this function turns token embeddings into one sentence embedding
+#this function turns token embeddings into one sentence embeddin
 def mean_pool(last_hidden_state: torch.Tensor, attention_mask: torch.Tensor) -> torch.Tensor:
     mask = attention_mask.unsqueeze(-1).type_as(last_hidden_state)  
     summed = (last_hidden_state * mask).sum(dim=1)
@@ -44,8 +44,11 @@ class ImageEncoder(nn.Module):
         x = self.pool(x).flatten(1)        # [B, C]
         return x #here we are outputing embedding from image
 
-# This is coming from and augmented for our text classifer
+
 class TextEncoder(nn.Module):
+    """
+    # This is coming from and augmented for our text classifer
+    # """
     def __init__(self, pretrained: bool = True):
         super().__init__()
         self.bert = AutoModel.from_pretrained("distilbert-base-uncased") #using our pretrained bert
@@ -56,8 +59,9 @@ class TextEncoder(nn.Module):
         # DistilBERT has no pooler; use mean pooling (robust) or CLS token out.last_hidden_state[:,0]
         return mean_pool(out.last_hidden_state, attention_mask)
 
-#Our classifier head class
+
 class MLPHead(nn.Module):
+"""#Our classifier head class"""
 
     #mapping all our embedding from above into logits!!
     def __init__(self, in_dim: int, num_classes: int, hidden: int = 512, dropout: float = 0.2):
@@ -72,8 +76,11 @@ class MLPHead(nn.Module):
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         return self.net(x) #this is getting our logits which we need to pass to CrossEntropyLoss (ENSF 617 full reference)
 
-#This our full multimodal classifier 
+
 class MultiModalClassifier(nn.Module):
+"""#This our full multimodal classifier 
+"""
+
     #wrapper that sets the modes and calls the respectibe siper modes so that we instatiate all our modes,
     #independent of which mode is chosen (so we have the option of doing multimodal if called upon and that is the mode set)
     def __init__(
