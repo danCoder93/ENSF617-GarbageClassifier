@@ -1,11 +1,16 @@
-# src/data_collate.py
+# This file also had substantial help from ChatGPT in terms of not only debugging but implementation and FULL REFERENCE TO IT
+# we wanted clear reuasble files to help with processing and as we evolved our code from early stages to the final submission
+# we need great files to rerun and help with data and this was created with our insight.
+
 from dataclasses import dataclass
 from typing import Any, Dict, List, Literal, Optional
 
 import torch
 
+#as we have our 3 modes - text, image and multimodal
 Mode = Literal["image", "text", "multimodal"]
 
+#creating the main class for our datacolate
 @dataclass
 class DataCollate:
     mode: Mode
@@ -13,8 +18,7 @@ class DataCollate:
     max_length: int = 64
 
     def __call__(self, batch: List[Dict[str, Any]]) -> Dict[str, Any]:
-        # batch items come from CVPR.__getitem__:
-        # {"image": img_tensor, "text": str, "label": int, "path": str}
+
         labels = torch.tensor([b["label"] for b in batch], dtype=torch.long)
         paths = [b["path"] for b in batch]
 
