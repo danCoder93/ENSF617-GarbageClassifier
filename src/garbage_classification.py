@@ -61,7 +61,6 @@ class TextEncoder(nn.Module):
 
 
 class MLPHead(nn.Module):
-"""#Our classifier head class"""
 
     #mapping all our embedding from above into logits!!
     def __init__(self, in_dim: int, num_classes: int, hidden: int = 512, dropout: float = 0.2):

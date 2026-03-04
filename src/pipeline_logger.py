@@ -17,11 +17,15 @@ from torch.utils.tensorboard import SummaryWriter
 
 
 class PipelineLogger:
-    """Encapsulates tensorboard logging for end-to-end ML pipeline internals."""
+    """This is our TensorBoardLogger and centalizes everything so we can just called and it will write to our tensorboard
+    This ideation came from Danish and was identified during a refactoring meeting to improve our code structure
+      and was super helpfu in getting our metrics at each level, our EPOCH metrics, and checkpoint info and finally evaluation metrics
+      Full reference again throughout this class to ChatGPT for final implemetation and ended up working beautifully"""
 
     def __init__(self, writer: Optional[SummaryWriter] = None):
         self.writer = writer
 
+    #starting our logger with the default setting and iniations
     def log_run_start(
         self,
         cfg: Any,
@@ -39,6 +43,7 @@ class PipelineLogger:
             cfg_dict = dict(cfg) if isinstance(cfg, dict) else {"config": str(cfg)}
         cfg_dict = {k: v for k, v in cfg_dict.items() if k != "logger"}
 
+    #logs all the metadata as text
         self.writer.add_text("run/config", str(cfg_dict), 0)
         self.writer.add_text("run/model_class", model.__class__.__name__, 0)
 
@@ -57,6 +62,7 @@ class PipelineLogger:
             if lr is not None:
                 self._add_scalar(f"run/optimizer_group_{idx}_lr", float(lr), 0)
 
+    #what we log at each step
     def log_step(
         self,
         stage: str,
@@ -80,6 +86,7 @@ class PipelineLogger:
         if log_histograms and confidences is not None:
             self.writer.add_histogram(f"step/{stage}_confidence", confidences.detach().float().cpu(), step)
 
+    #logging our epoch and neccesaery componenrs
     def log_epoch(
         self,
         epoch: int,
