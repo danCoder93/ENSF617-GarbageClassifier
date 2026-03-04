@@ -3,6 +3,9 @@
 
 #Also full reference to ENSF 617 content and Dr. De Souza, as we leveraged his examples heavily in all apsects of our code along with the tutorials
 #and none of this would be possible without it, many portions were borrowed and augmented for our data set
+
+#this is our command line and of course main file, which is will execute our evaluation of one of the 3 modes we have defined - text, image, classifications
+
 import sys
 import os
 import time
@@ -19,6 +22,8 @@ from trainer import Trainer, TrainConfig
 
 from garbage_classification import MultiModalClassifier
 
+#giving the option of which device to run through - found was huge for running down the road as it became so easy to define for validation down the road
+
 def pick_device():
     if torch.backends.mps.is_available():
         return "mps"
@@ -26,11 +31,13 @@ def pick_device():
         return "cuda"
     return "cpu"
 
+#create a TensorBoard and unique folder for all our runs
 def make_writer(run_name: str) -> SummaryWriter:
     ts = time.strftime("%Y%m%d-%H%M%S")
     logdir = f"../runs/{run_name}/{ts}"
     return SummaryWriter(log_dir=logdir)
 
+#this function is what connects back to the development of our data module file of which we create DataLoaders for test/val and train when called upon to run our ML model!!!
 def make_loaders(data_dir: str, device:str, mode: str, tokenizer_name="distilbert-base-uncased", batch_size=32, num_workers=2, max_len=64):
 
     inference_tf = models.EfficientNet_V2_M_Weights.IMAGENET1K_V1.transforms()
@@ -57,6 +64,10 @@ def make_loaders(data_dir: str, device:str, mode: str, tokenizer_name="distilber
 
     return dm.train_dataloader(), dm.val_dataloader(), dm.test_dataloader(), dm.num_class
 
+#this is our single run expirement, which of course creates all the componets, the logger which calls from our pipelinelogger
+#then our multimodalclassifer which again allows for modes and builds our models and then finally creating our traininhg configuration
+#wthin that configuration is our ability to set EPOCHs which we overwrote to 20, has the tensorboard logging baked in the saving of the best model
+#then creating the trainer with the crossEntropyLoss (coming from ENSF 617), training and evaluation
 def run_one(mode: str, data_dir: str, device: str):
     logger = PipelineLogger(writer=make_writer(run_name=mode))
 
@@ -80,6 +91,7 @@ def run_one(mode: str, data_dir: str, device: str):
 
     logger.close()
 
+#and now finally our main, which executes our interface for a good user experiences and the runs!!
 def main():
     run_modes = ["image", "text", "multimodal"]
     arg_mode = "multimodal"
