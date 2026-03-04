@@ -1,3 +1,9 @@
+#Full referenc to CHATGPT for help with inspiration, debugging and implementation, however this reflects the spirit of our ideas
+#along with initial attempts, debugging and research and reflects our teams hollistic vision on how tackle this project
+
+#Also full reference to ENSF 617 content and Dr. De Souza, as we leveraged his examples heavily in all apsects of our code along with the tutorials
+#and none of this would be possible without it, many portions were borrowed and augmented for our data set
+
 import csv
 import json
 import time
