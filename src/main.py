@@ -31,7 +31,7 @@ def make_loaders(data_dir: str, device:str, mode: str, tokenizer_name="distilber
     inference_tf = models.EfficientNet_V2_M_Weights.IMAGENET1K_V1.transforms()
 
     aug_tf = transforms.Compose([
-        transforms.RandomRotation(45),
+        transforms.RandomRotation(30),
         transforms.RandomHorizontalFlip(),
     ])
 
