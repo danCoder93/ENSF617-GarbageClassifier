@@ -1,6 +1,0 @@
-/var/spool/slurmd/job601025/slurm_script: line 13: /home/ibrahim.khan3/software/init-conda: No such file or directory
-/var/spool/slurmd/job601025/slurm_script: line 14: conda: command not found
-  File "main.py", line 23
-    def make_writer(run_name: str) -> SummaryWriter:
-                            ^
-SyntaxError: invalid syntax

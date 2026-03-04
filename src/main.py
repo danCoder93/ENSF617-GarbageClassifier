@@ -1,3 +1,4 @@
+import sys
 import os
 import time
 
@@ -22,7 +23,7 @@ def pick_device():
 
 def make_writer(run_name: str) -> SummaryWriter:
     ts = time.strftime("%Y%m%d-%H%M%S")
-    logdir = f"runs/{run_name}/{ts}"
+    logdir = f"../runs/{run_name}/{ts}"
     return SummaryWriter(log_dir=logdir)
 
 def make_loaders(data_dir: str, device:str, mode: str, tokenizer_name="distilbert-base-uncased", batch_size=32, num_workers=2, max_len=64):
@@ -64,7 +65,7 @@ def run_one(mode: str, data_dir: str, device: str):
         max_epochs=1, 
         logger=logger, 
         grad_clip_norm=1.0, 
-        save_path=f"best_{mode}.pth", 
+        save_path=f"../weights/best_{mode}.pth", 
         use_amp=True)
     trainer = Trainer(cfg, loss_fn=nn.CrossEntropyLoss())
 
@@ -75,11 +76,17 @@ def run_one(mode: str, data_dir: str, device: str):
     logger.close()
 
 def main():
+    run_modes = ["image", "text", "multimodal"]
+    arg_mode = "multimodal"
+    if len(sys.argv) >= 2:
+        arg_mode = sys.argv[1]
+        if arg_mode.lower() not in run_modes:
+            raise ValueError(f"mode must be one of {run_modes}, got '{arg_mode}'")
+    
     data_dir = r"/work/TALC/ensf617_2026w/garbage_data"
     device = pick_device()
 
-    for mode in ["image", "text", "multimodal"]:
-        run_one(mode, data_dir, device)
+    run_one(arg_mode, data_dir, device)
 
 if __name__ == "__main__":
     main()

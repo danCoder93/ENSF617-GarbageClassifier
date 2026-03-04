@@ -210,3 +210,5 @@ __marimo__/
 .DS_Store
 
 src/.DS_Store
+src/runs
+src/slurm-*.out
