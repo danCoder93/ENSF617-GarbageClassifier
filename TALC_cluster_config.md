@@ -1,5 +1,4 @@
-Follow the instructions
-
+# Follow the instructions
 
 ```sh
 # Create env with Python 3.11 and proper channel order
@@ -12,7 +11,7 @@ conda config --env --set channel_priority strict
 # Install CUDA-enabled PyTorch + vision/audio + tensorboard
 conda install -y pytorch torchvision torchaudio tensorboard transformers scikit-learn matplotlib pytorch-cuda=12.1 \
   -c pytorch -c nvidia -c conda-forge --override-channels
-ls
+
 # Quick sanity check (compile-time CUDA)
 python -c "import torch; print('Torch:', torch.__version__, '| CUDA runtime:', torch.version.cuda)"
 
