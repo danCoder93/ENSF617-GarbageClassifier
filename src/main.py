@@ -43,7 +43,7 @@ def make_loaders(data_dir: str, device:str, mode: str, tokenizer_name="distilber
     inference_tf = models.EfficientNet_V2_M_Weights.IMAGENET1K_V1.transforms()
 
     aug_tf = transforms.Compose([
-        transforms.RandomRotation(45),
+        transforms.RandomRotation(30),
         transforms.RandomHorizontalFlip(),
     ])
 
@@ -81,7 +81,7 @@ def run_one(mode: str, data_dir: str, device: str):
         max_epochs=20, 
         logger=logger, 
         grad_clip_norm=1.0, 
-        save_path=f"../weights/best_{mode}.pth", 
+        save_path=f"best_{mode}.pth", 
         use_amp=True)
     trainer = Trainer(cfg, loss_fn=nn.CrossEntropyLoss())
 
