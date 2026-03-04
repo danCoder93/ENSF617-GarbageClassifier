@@ -210,6 +210,8 @@ class Trainer:
         score = float(val_m["acc"])
         if score > self.best_val_acc:
             self.best_val_acc = score
+            dir_path = Path(self.cfg.save_path)
+            dir_path.mkdir(parents=True, exist_ok=True)
             torch.save(model.state_dict(), self.cfg.save_path)
             print(f"Saved best checkpoint to {self.cfg.save_path} (val_acc={score:.4f})")
             self.logger.log_checkpoint(epoch=self.global_step, save_path=self.cfg.save_path, score=score)
