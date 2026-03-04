@@ -65,7 +65,7 @@ def run_one(mode: str, data_dir: str, device: str):
         max_epochs=20, 
         logger=logger, 
         grad_clip_norm=1.0, 
-        save_path=f"../weights/best_{mode}.pth", 
+        save_path=f"best_{mode}.pth", 
         use_amp=True)
     trainer = Trainer(cfg, loss_fn=nn.CrossEntropyLoss())
 
